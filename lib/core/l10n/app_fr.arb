@@ -1,0 +1,785 @@
+{
+  "@@locale": "fr",
+  "appName": "Floos",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "confirm": "Confirmer",
+  "close": "Fermer",
+  "back": "Retour",
+  "retry": "Réessayer",
+  "undo": "Annuler",
+  "done": "Terminé",
+  "next": "Suivant",
+  "skip": "Passer",
+  "seeAll": "Tout voir",
+  "viewAll": "Voir tout",
+  "details": "Détails",
+  "add": "Ajouter",
+  "search": "Rechercher",
+  "none": "Aucun",
+  "today": "Aujourd'hui",
+  "yesterday": "Hier",
+  "tomorrow": "Demain",
+  "ok": "OK",
+  "archive": "Archiver",
+  "unarchive": "Désarchiver",
+  "duplicate": "Dupliquer",
+  "apply": "Appliquer",
+  "reset": "Réinitialiser",
+  "clear": "Effacer",
+  "optional": "Facultatif",
+  "more": "Plus",
+  "name": "Nom",
+  "note": "Note",
+  "date": "Date",
+  "time": "Heure",
+  "amount": "Montant",
+  "account": "Compte",
+  "category": "Catégorie",
+  "categories": "Catégories",
+  "accounts": "Comptes",
+  "tags": "Étiquettes",
+  "payee": "Bénéficiaire",
+  "currency": "Devise",
+  "icon": "Icône",
+  "color": "Couleur",
+  "type": "Type",
+  "total": "Total",
+  "loading": "Chargement…",
+  "selectAll": "Tout sélectionner",
+  "change": "Changer",
+  "share": "Partager",
+  "export": "Exporter",
+  "import": "Importer",
+  "continueLabel": "Continuer",
+  "settle": "Solder",
+  "pause": "Mettre en pause",
+  "resume": "Reprendre",
+  "open": "Ouvrir",
+  "copy": "Copier",
+  "noDate": "Aucune date",
+  "noTime": "Aucune heure",
+  "yes": "Oui",
+  "no": "Non",
+  "from": "De",
+  "to": "Vers",
+  "start": "Début",
+  "end": "Fin",
+  "custom": "Personnalisé",
+  "navHome": "Accueil",
+  "navReport": "Rapport",
+  "navPlan": "Plan",
+  "navSettings": "Réglages",
+  "fabAddTransaction": "Ajouter une transaction",
+  "typeExpense": "Dépense",
+  "typeIncome": "Revenu",
+  "typeTransfer": "Virement",
+  "expenses": "Dépenses",
+  "incomes": "Revenus",
+  "transfers": "Virements",
+  "saved": "Enregistré",
+  "deleted": "Supprimé",
+  "deletedCount": "{count, plural, =1{1 élément supprimé} other{{count} éléments supprimés}}",
+  "@deletedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionsCount": "{count, plural, =0{Aucune transaction} =1{1 transaction} other{{count} transactions}}",
+  "@transactionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysCount": "{count, plural, =0{0 jour} =1{1 jour} other{{count} jours}}",
+  "@daysCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectedCount": "{count, plural, =1{1 sélectionnée} other{{count} sélectionnées}}",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errorGeneric": "Une erreur est survenue.",
+  "errorWithRetry": "Impossible de charger les données.",
+  "errAmountEmpty": "Saisissez un montant.",
+  "errAmountNegative": "Le montant doit être positif.",
+  "errAmountInvalid": "Montant invalide.",
+  "errAmountTooManyDecimals": "Maximum {digits} décimales pour cette devise.",
+  "@errAmountTooManyDecimals": {
+    "placeholders": {
+      "digits": {
+        "type": "int"
+      }
+    }
+  },
+  "errAmountTooLarge": "Montant trop élevé.",
+  "errDivisionZero": "Division par zéro impossible.",
+  "errAmountZero": "Le montant doit être supérieur à 0.",
+  "errAccountNameLength": "Le nom doit contenir de 1 à 40 caractères.",
+  "errAccountTypeInvalid": "Type de compte invalide.",
+  "errCurrencyInvalid": "Devise inconnue.",
+  "errAccountNameTaken": "Un compte actif porte déjà ce nom.",
+  "errAccountNotFound": "Compte introuvable.",
+  "errAccountHasTransactions": "Ce compte contient des transactions.",
+  "errCategoryNameLength": "Le nom doit contenir de 1 à 30 caractères.",
+  "errCategoryParentSelf": "Une catégorie ne peut pas être son propre parent.",
+  "errCategoryNotFound": "Catégorie introuvable.",
+  "errCategoryMaxDepth": "Un seul niveau de sous-catégorie est autorisé.",
+  "errCategoryKindMismatch": "La catégorie ne correspond pas au type.",
+  "errCategoryHasChildren": "Cette catégorie a des sous-catégories.",
+  "errCategorySystem": "Les catégories système ne peuvent pas être supprimées.",
+  "errCategoryInUse": "Catégorie utilisée : choisissez une catégorie de remplacement.",
+  "errCategoryMergeSame": "Choisissez deux catégories différentes.",
+  "errTagNameLength": "Le nom doit contenir de 1 à 30 caractères.",
+  "errTagNameTaken": "Cette étiquette existe déjà.",
+  "errRateSameCurrency": "Choisissez deux devises différentes.",
+  "errRateInvalid": "Taux invalide.",
+  "errRateMissing": "Aucun taux {from} → {to}. Ajoutez-en un.",
+  "@errRateMissing": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "errAccountRequired": "Choisissez un compte.",
+  "errPayeeTooLong": "60 caractères maximum.",
+  "errNoteTooLong": "500 caractères maximum.",
+  "errTimeInvalid": "Heure invalide.",
+  "errToAccountRequired": "Choisissez le compte de destination.",
+  "errSameAccount": "Les comptes doivent être différents.",
+  "errToAmountRequired": "Saisissez le montant reçu.",
+  "errCategoryRequired": "Choisissez une catégorie.",
+  "errNotFound": "Élément introuvable.",
+  "errCustomRange": "La date de fin doit suivre la date de début.",
+  "errBudgetExists": "Un budget actif existe déjà pour cette catégorie et cette période.",
+  "errGoalNameLength": "Le nom doit contenir de 1 à 40 caractères.",
+  "errDeadlineBeforeStart": "L'échéance doit être après la date de début.",
+  "errLinkedAccountRequired": "Choisissez le compte d'épargne lié.",
+  "errTransferCurrencyMismatch": "Les deux comptes doivent avoir la même devise.",
+  "errIntervalInvalid": "L'intervalle doit être au moins 1.",
+  "errMonthDayInvalid": "Jour du mois invalide.",
+  "errEndBeforeStart": "La fin doit suivre le début.",
+  "errRemindInvalid": "Rappel entre 0 et 7 jours.",
+  "errRuleEnded": "Cette récurrence est terminée.",
+  "errPersonNameLength": "Le nom doit contenir de 1 à 40 caractères.",
+  "errDueBeforeStart": "L'échéance doit suivre la date de début.",
+  "errStorage": "Erreur d'enregistrement. Vos données n'ont pas été modifiées.",
+  "errAttachmentFailed": "Impossible d'ajouter cette image.",
+  "errBackupInvalid": "Ce fichier n'est pas une sauvegarde Floos valide.",
+  "errBackupChecksum": "La sauvegarde est corrompue (somme de contrôle invalide).",
+  "errBackupNewerSchema": "Cette sauvegarde vient d'une version plus récente de l'application. Mettez à jour Floos.",
+  "errBackupWrongPassword": "Mot de passe incorrect.",
+  "errBackupFailed": "La sauvegarde a échoué.",
+  "errCsvEmpty": "Le fichier est vide.",
+  "errCsvMapping": "Associez au moins les colonnes date et montant.",
+  "errPinMismatch": "Les codes ne correspondent pas.",
+  "errPinInvalid": "Le code doit contenir 4 à 6 chiffres.",
+  "errPermissionDenied": "Autorisation refusée.",
+  "errBaseCurrencyRates": "Ajoutez d'abord un taux vers {currency} pour : {codes}.",
+  "@errBaseCurrencyRates": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      },
+      "codes": {
+        "type": "String"
+      }
+    }
+  },
+  "a11yMinus": "moins",
+  "a11yHiddenAmount": "Montant masqué",
+  "a11yProgress": "{percent} pour cent",
+  "@a11yProgress": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "a11yNotifications": "Notifications",
+  "a11yUnread": "Notifications non lues",
+  "a11yToggleAmounts": "Afficher ou masquer les montants",
+  "a11yProfile": "Profil",
+  "a11yPinned": "Épinglées en premier",
+  "a11yHistory": "Récemment modifiées",
+  "a11yBarChart": "Graphique en barres",
+  "a11yDonutChart": "Graphique en anneau",
+  "a11yChartSegment": "{name}, {percent} pour cent, {amount}",
+  "@a11yChartSegment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "a11yMoreActions": "Plus d'actions",
+  "a11yPrevious": "Période précédente",
+  "a11yNext": "Période suivante",
+  "a11yBackspace": "Effacer",
+  "a11yDragToReorder": "Faire glisser pour réordonner",
+  "a11ySwipeHint": "Glisser pour supprimer ou modifier",
+  "a11ySelected": "Sélectionné",
+  "a11yViewAsTable": "Voir en tableau",
+  "a11yViewAsChart": "Voir en graphique",
+  "a11yChartSummary": "{title} : total {total}, {count} éléments",
+  "@a11yChartSummary": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "vsLastPeriod": "vs période préc.",
+  "vsLastMonth": "vs mois dernier",
+  "badgeScheduled": "Planifiée",
+  "badgePending": "À confirmer",
+  "insightSee": "Voir",
+  "channelBudget": "Alertes de budget",
+  "channelBills": "Rappels de factures",
+  "channelPending": "Récurrences à confirmer",
+  "channelGoals": "Objectifs",
+  "channelDebts": "Dettes",
+  "channelDaily": "Rappel quotidien",
+  "channelBackup": "Sauvegarde",
+  "notifBudgetTitle": "Budget {name}",
+  "@notifBudgetTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBudgetBody": "{name} : {percent} % de {limit} utilisés",
+  "@notifBudgetBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBudgetBodyHidden": "{name} : {percent} % du budget utilisé",
+  "@notifBudgetBodyHidden": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "notifBillTitle": "Facture à venir",
+  "notifBillBody": "{name} {amount} à payer le {date}",
+  "@notifBillBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBillBodyHidden": "{name} à payer le {date}",
+  "@notifBillBodyHidden": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notifPendingTitle": "À confirmer",
+  "notifPendingBody": "{name} est prêt à être confirmé",
+  "@notifPendingBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifSummaryTitle": "Récurrences ajoutées",
+  "notifSummaryBody": "{count, plural, =1{1 opération récurrente a été ajoutée} other{{count} opérations récurrentes ont été ajoutées}}",
+  "@notifSummaryBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifGoalTitle": "Objectif",
+  "notifGoalBody": "🎉 {percent} % de {name}",
+  "@notifGoalBody": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifGoalDoneBody": "🎉 Objectif atteint : {name}",
+  "@notifGoalDoneBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDebtTitle": "Échéance de dette",
+  "notifDebtOweTomorrow": "Vous devez {amount} à {name} demain",
+  "@notifDebtOweTomorrow": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDebtOweToday": "Vous devez {amount} à {name} aujourd'hui",
+  "@notifDebtOweToday": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDebtOwedTomorrow": "{name} vous doit {amount} demain",
+  "@notifDebtOwedTomorrow": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDebtOwedToday": "{name} vous doit {amount} aujourd'hui",
+  "@notifDebtOwedToday": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDebtHiddenTomorrow": "Échéance avec {name} demain",
+  "@notifDebtHiddenTomorrow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDebtHiddenToday": "Échéance avec {name} aujourd'hui",
+  "@notifDebtHiddenToday": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDailyTitle": "Floos",
+  "notifDailyBody": "Saisir les dépenses du jour ?",
+  "notifBackupTitle": "Sauvegarde",
+  "notifBackupBody": "Sauvegardez vos données",
+  "notifTestTitle": "Notification de test",
+  "notifTestBody": "Les notifications fonctionnent.",
+  "widgetSpent": "Dépensé ce mois",
+  "widgetIncome": "Revenus",
+  "widgetBalance": "Solde",
+  "budgetOverall": "Global",
+  "txNew": "Nouvelle transaction",
+  "txEdit": "Modifier la transaction",
+  "txSaveAndAdd": "Enregistrer et ajouter",
+  "txAllCategories": "Toutes",
+  "txNewCategory": "Nouvelle",
+  "txChooseCategory": "Choisir une catégorie",
+  "txChooseAccount": "Choisir un compte",
+  "txFromAccount": "Depuis",
+  "txToAccount": "Vers",
+  "txToAmount": "Montant reçu",
+  "txRateLine": "Taux : 1 {from} = {rate} {to}",
+  "@txRateLine": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "txRateMissingHint": "Aucun taux {from} → {to} : saisissez le taux du jour.",
+  "@txRateMissingHint": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "txRateField": "1 {from} = ? {to}",
+  "@txRateField": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "txPayeeHint": "Ex. Marjane, Uber…",
+  "txNoteHint": "Ajouter une note",
+  "txTags": "Étiquettes",
+  "txAddTag": "Ajouter une étiquette",
+  "txNewTagHint": "Nouvelle étiquette",
+  "txAttachments": "Justificatifs",
+  "txAddPhoto": "Ajouter une photo",
+  "txCamera": "Appareil photo",
+  "txGallery": "Galerie",
+  "txRepeat": "Répéter",
+  "txRepeatNone": "Jamais",
+  "txAdvanced": "Options avancées",
+  "txLinkDebt": "Lier à une dette",
+  "txContributeGoal": "Contribuer à un objectif",
+  "txExcludeReports": "Exclure des rapports",
+  "txExcludeReportsHint": "Ex. remboursements",
+  "txPinned": "Épinglée",
+  "txAddTime": "Ajouter une heure",
+  "txCalendar": "Calendrier",
+  "txDeleteConfirm": "Supprimer cette transaction ?",
+  "txRecurringScopeTitle": "Transaction récurrente",
+  "txRecurringScopeMessage": "Appliquer les modifications à :",
+  "txScopeOnlyThis": "Celle-ci uniquement",
+  "txScopeFuture": "Celle-ci et les suivantes",
+  "txDuplicated": "Copie créée — vérifiez puis enregistrez",
+  "txAmountPreview": "= {amount}",
+  "@txAmountPreview": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "txSearchCategories": "Rechercher une catégorie",
+  "txCreateCategoryTitle": "Nouvelle catégorie",
+  "txParentCategory": "Catégorie parente",
+  "txNoParent": "Aucune (principale)",
+  "txKeypadHint": "Saisissez un montant",
+  "txNoAccount": "Créez d'abord un compte.",
+  "txCreateAccount": "Créer un compte",
+  "freqDaily": "Quotidienne",
+  "freqWeekly": "Hebdomadaire",
+  "freqMonthly": "Mensuelle",
+  "freqYearly": "Annuelle",
+  "recEvery": "Tous les",
+  "recInterval": "Intervalle",
+  "recEveryDay": "{n, plural, =1{Chaque jour} other{Tous les {n} jours}}",
+  "@recEveryDay": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recEveryWeek": "{n, plural, =1{Chaque semaine le {weekday}} other{Toutes les {n} semaines le {weekday}}}",
+  "@recEveryWeek": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "recEveryMonth": "{n, plural, =1{Chaque mois le {day}} other{Tous les {n} mois le {day}}}",
+  "@recEveryMonth": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "recEveryYear": "{n, plural, =1{Chaque année le {date}} other{Tous les {n} ans le {date}}}",
+  "@recEveryYear": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "recWeekday": "Jour de la semaine",
+  "recMonthDay": "Jour du mois",
+  "recMonthDayHint": "Les mois plus courts utilisent leur dernier jour.",
+  "recEnds": "Fin",
+  "recEndsNever": "Jamais",
+  "recEndsOn": "Le",
+  "recEndsAfter": "Après",
+  "recOccurrences": "{n, plural, =1{1 fois} other{{n} fois}}",
+  "@recOccurrences": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recMode": "Création",
+  "recModeAuto": "Automatique",
+  "recModeConfirm": "À confirmer",
+  "recModeAutoHint": "Ajoutée automatiquement à la date prévue.",
+  "recModeConfirmHint": "Ajoutée en attente de votre confirmation.",
+  "recReminder": "Rappel de facture",
+  "recReminderOff": "Aucun",
+  "recReminderDays": "{n, plural, =0{Le jour même} =1{1 jour avant} other{{n} jours avant}}",
+  "@recReminderDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recReminderTime": "Heure du rappel",
+  "recStart": "Début",
+  "recName": "Nom (facultatif)",
+  "recTitle": "Répétition",
+  "recRemove": "Ne pas répéter",
+  "homeCurrentBalance": "Solde actuel",
+  "homeDeltaVs": "{amount} vs période préc.",
+  "@homeDeltaVs": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeYourMoney": "Votre argent",
+  "homeYourMoneyInfo": "Revenus et dépenses de la période sélectionnée, convertis dans votre devise principale.",
+  "homeIncome": "Revenus",
+  "homeExpenses": "Dépenses",
+  "homeTransactions": "Transactions",
+  "homeForPeriod": "Pour la période",
+  "homeNeedsConfirmation": "À confirmer",
+  "homeConfirm": "Confirmer",
+  "homeSkip": "Ignorer",
+  "homeEditRule": "Modifier la règle",
+  "homeBudgets": "Budgets",
+  "homeEmptyTitle": "Aucune transaction pour le moment",
+  "homeEmptyAction": "Ajouter votre première dépense",
+  "homeEmptyPeriod": "Aucune transaction sur cette période.",
+  "homeCoachMark": "Touchez + pour ajouter une dépense en quelques secondes.",
+  "homeConfirmAmount": "Montant confirmé",
+  "homeMissingRates": "Taux manquant pour : {codes}",
+  "@homeMissingRates": {
+    "placeholders": {
+      "codes": {
+        "type": "String"
+      }
+    }
+  },
+  "homeInfoIncomeExpense": "Les virements ne sont jamais comptés comme revenus ou dépenses.",
+  "insightBudgetOver": "Vous avez dépassé votre budget {name} de {amount}.",
+  "@insightBudgetOver": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBudgetWarning": "{name} est à {percent} % de sa limite, {perDay}/jour restants.",
+  "@insightBudgetWarning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "perDay": {
+        "type": "String"
+      }
+    }
+  },
+  "insightGoalBehind": "{name} nécessite {amount}/mois pour rester dans les temps.",
+  "@insightGoalBehind": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBill": "{name} ({amount}) {when}.",
+  "@insightBill": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "insightBillWhen": "{days, plural, =0{à payer aujourd'hui} =1{à payer demain} other{à payer dans {days} jours}}",
+  "@insightBillWhen": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "insightCategoryUp": "{name} est en hausse de {percent} % par rapport au mois dernier.",
+  "@insightCategoryUp": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "insightUnusual": "Dépense inhabituelle en {name} : {amount}.",
+  "@insightUnusual": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightSavings": "Vous avez épargné {percent} % de vos revenus jusqu'ici 👏",
+  "@insightSavings": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "insightNoLogs": "N'oubliez pas de saisir vos dépenses.",
+  "insightBackup": "Aucune sauvegarde depuis 30 jours : sauvegardez vos données.",
+  "insightDismiss": "Masquer pour cette période",
+  "insightDismissed": "Conseil masqué",
+  "insightsTitle": "Conseils",
+  "insightsEmpty": "Aucun conseil pour l'instant. Continuez à saisir vos opérations.",
+  "periodWeek": "Semaine",
+  "periodMonth": "Mois",
+  "periodYear": "Année",
+  "periodCustom": "Personnalisée",
+  "periodPickTitle": "Choisir la période",
+  "periodThis": "Cette période",
+  "periodLast": "Période précédente",
+  "periodLast3Months": "3 derniers mois",
+  "periodThisYear": "Cette année",
+  "periodAllTime": "Tout",
+  "periodCustomRange": "Plage personnalisée",
+  "txListTitle": "Transactions",
+  "txSearchHint": "Rechercher (bénéficiaire, note, =45, >100)",
+  "filterTitle": "Filtres",
+  "filterDateRange": "Période",
+  "filterTypes": "Types",
+  "filterAccounts": "Comptes",
+  "filterCategories": "Catégories",
+  "filterTags": "Étiquettes",
+  "filterAmountMin": "Montant min.",
+  "filterAmountMax": "Montant max.",
+  "filterHasAttachment": "Avec justificatif",
+  "filterPendingOnly": "À confirmer uniquement",
+  "filterClearAll": "Tout effacer",
+  "filterCount": "{count, plural, =1{1 filtre} other{{count} filtres}}",
+  "@filterCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "footerIn": "Entrées",
+  "footerOut": "Sorties",
+  "footerNet": "Net",
+  "bulkDelete": "Supprimer",
+  "bulkCategory": "Changer la catégorie",
+  "bulkAccount": "Changer le compte",
+  "bulkTag": "Ajouter une étiquette",
+  "bulkExport": "Exporter en CSV",
+  "bulkDone": "Modifications appliquées",
+  "searchNoResults": "Aucun résultat. Essayez d'autres mots ou retirez des filtres.",
+  "csvSeparator": "Séparateur",
+  "csvComma": "Virgule (,)",
+  "csvSemicolon": "Point-virgule (;)",
+  "csvExported": "Fichier CSV prêt",
+  "chooseTag": "Choisir une étiquette"
+}
