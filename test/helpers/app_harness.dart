@@ -35,13 +35,13 @@ class AppHarness {
     final secrets = MemorySecretStore();
     late AppHarness h;
     await tester.runAsync(() async {
-      if (seed) await env.seed(locale: 'fr');
+      if (seed) await env.seed(locale: 'en');
       if (onboarded) await env.settings.set(SettingKeys.onboardingDone, true);
       if (lock) await env.settings.set(SettingKeys.lockEnabled, true);
     });
     final prefs = await tester.runAsync(env.settings.load) ?? AppPrefs.defaults;
     final dir = Directory.systemTemp.createTempSync('floos_test');
-    final ui = await SharedPreferences.getInstance();
+    final ui = (await tester.runAsync(SharedPreferences.getInstance))!;
     final container = ProviderContainer(
       overrides: [
         databaseProvider.overrideWithValue(env.db),
@@ -74,7 +74,9 @@ class AppHarness {
   Future<void> dispose(WidgetTester tester) async {
     await tester.pumpWidget(const SizedBox.shrink());
     container.dispose();
-    await tester.runAsync(env.dispose);
+    await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 100)));
+    await tester.pump(const Duration(seconds: 5));
+    // In-memory DB is left to GC: closing it with live drift streams stalls.
     dir.deleteSync(recursive: true);
   }
 }

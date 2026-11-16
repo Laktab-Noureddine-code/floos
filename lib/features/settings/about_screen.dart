@@ -8,6 +8,8 @@ import 'package:floos/core/utils/formatters.dart';
 import 'package:floos/core/widgets/nav.dart';
 import 'package:floos/core/widgets/sheets.dart';
 import 'package:floos/data/db/app_database.dart';
+import 'package:floos/features/settings/debug_tools.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -47,6 +49,14 @@ class AboutScreen extends ConsumerWidget {
                 onTap: () => showLicensePage(context: context, applicationName: l.appName),
               ),
               SettingsRow(label: l.aboutDiagnostics, onTap: () => context.push('/settings/diagnostics')),
+              if (kDebugMode)
+                SettingsRow(
+                  label: 'Debug: générer 10 000 opérations',
+                  onTap: () async {
+                    final n = await generateDemoTransactions(ref);
+                    if (context.mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('$n')));
+                  },
+                ),
             ],
           ),
         ],
