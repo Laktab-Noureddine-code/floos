@@ -781,5 +781,468 @@
   "csvComma": "Virgule (,)",
   "csvSemicolon": "Point-virgule (;)",
   "csvExported": "Fichier CSV prêt",
-  "chooseTag": "Choisir une étiquette"
+  "chooseTag": "Choisir une étiquette",
+  "obWelcomeTitle": "Bienvenue sur Floos",
+  "obWelcomeBody": "Suivez vos dépenses, budgets et objectifs. Tout reste sur votre téléphone, hors ligne.",
+  "obStart": "Commencer",
+  "obCurrencyTitle": "Votre devise",
+  "obCurrencyBody": "Choisissez la devise principale et le jour de début de mois.",
+  "obMonthStart": "Le mois commence le",
+  "obAccountTitle": "Votre premier compte",
+  "obAccountBody": "Ajoutez un compte (espèces, banque…) avec son solde actuel.",
+  "obAccountName": "Nom du compte",
+  "obAccountDefault": "Espèces",
+  "obInitialBalance": "Solde actuel",
+  "obSecurityTitle": "Sécurisez Floos",
+  "obSecurityBody": "Protégez l'accès avec un code PIN. Vous pourrez le changer plus tard.",
+  "obSetPin": "Définir un code PIN",
+  "obSkipPin": "Plus tard",
+  "obFinish": "Terminer",
+  "obStep": "Étape {n} sur {total}",
+  "@obStep": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "pinEnter": "Saisissez votre code PIN",
+  "pinCreate": "Créez un code PIN (4 à 6 chiffres)",
+  "pinConfirm": "Confirmez le code PIN",
+  "pinCurrent": "Code PIN actuel",
+  "pinWrong": "Code PIN incorrect",
+  "pinLocked": "Trop d'essais. Réessayez dans {s} s.",
+  "@pinLocked": {
+    "placeholders": {
+      "s": {
+        "type": "int"
+      }
+    }
+  },
+  "pinForgot": "Code PIN oublié ?",
+  "pinUseBiometrics": "Utiliser la biométrie",
+  "pinBiometricReason": "Déverrouiller Floos",
+  "pinForgotTitle": "Réinitialiser l'accès",
+  "pinForgotBody": "Vous pouvez vous authentifier par biométrie, ou effacer toutes les données de l'application.",
+  "pinWipeAll": "Effacer toutes les données",
+  "pinWipeConfirm1": "Toutes vos données seront définitivement supprimées. Continuer ?",
+  "pinWipeConfirm2": "Dernière confirmation : cette action est irréversible.",
+  "pinChanged": "Code PIN modifié",
+  "settingsTitle": "Réglages",
+  "settingsProfile": "Profil",
+  "settingsDisplayName": "Votre prénom",
+  "settingsGeneral": "Général",
+  "settingsBaseCurrency": "Devise principale",
+  "settingsMonthStart": "Début du mois",
+  "settingsWeekStart": "Début de la semaine",
+  "weekMonday": "Lundi",
+  "weekSaturday": "Samedi",
+  "weekSunday": "Dimanche",
+  "settingsTheme": "Thème",
+  "themeSystem": "Système",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "settingsHideAmounts": "Masquer les montants au démarrage",
+  "settingsManage": "Gérer",
+  "settingsRates": "Taux de change",
+  "settingsNotifications": "Notifications",
+  "settingsSecurity": "Sécurité",
+  "settingsBackup": "Sauvegarde et données",
+  "settingsAbout": "À propos",
+  "securityLock": "Verrouillage par code PIN",
+  "securityChangePin": "Changer le code PIN",
+  "securityBiometrics": "Déverrouillage biométrique",
+  "securityTimeout": "Verrouiller après",
+  "timeoutImmediate": "Immédiatement",
+  "timeout30": "30 secondes",
+  "timeout60": "1 minute",
+  "timeout300": "5 minutes",
+  "securitySecureFlag": "Masquer l'aperçu dans les applications récentes",
+  "aboutVersion": "Version",
+  "aboutPrivacy": "Confidentialité",
+  "aboutPrivacyBody": "Floos fonctionne entièrement hors ligne. Aucune donnée ne quitte votre appareil, sauf sauvegardes que vous partagez vous-même.",
+  "aboutLicenses": "Licences open source",
+  "aboutDiagnostics": "Diagnostics",
+  "diagEmpty": "Aucune erreur enregistrée",
+  "diagExport": "Exporter le journal",
+  "diagClear": "Effacer le journal",
+  "baseCurrencyBlocked": "Taux manquants pour {codes}. Ajoutez-les avant de changer de devise.",
+  "@baseCurrencyBlocked": {
+    "placeholders": {
+      "codes": {
+        "type": "String"
+      }
+    }
+  },
+  "errorLoading": "Une erreur est survenue",
+  "splashLoading": "Chargement…",
+  "accountNew": "Nouveau compte",
+  "accountEdit": "Modifier le compte",
+  "accountTypeCash": "Espèces",
+  "accountTypeBank": "Banque",
+  "accountTypeCard": "Carte",
+  "accountTypeSavings": "Épargne",
+  "accountTypeEwallet": "Portefeuille électronique",
+  "accountTypeOther": "Autre",
+  "accountInitialBalance": "Solde initial",
+  "accountIncludeTotal": "Inclure dans le total",
+  "accountArchivedSection": "Archivés",
+  "accountReconcile": "Rapprocher le solde",
+  "accountReconcileBody": "Saisissez le solde réel. Un ajustement sera créé pour la différence.",
+  "accountRealBalance": "Solde réel",
+  "accountReconciled": "Solde rapproché",
+  "accountBalanceHistory": "Solde sur 6 mois",
+  "accountDeleteTitle": "Supprimer le compte",
+  "accountDeleteBody": "Ce compte contient {n} opérations. Que faire ?",
+  "@accountDeleteBody": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "accountMoveTo": "Déplacer les opérations vers…",
+  "accountDeleteAll": "Supprimer aussi les opérations",
+  "accountTotalBalance": "Solde total",
+  "accountsEmpty": "Aucun compte",
+  "accountTransactions": "Opérations",
+  "reorderHint": "Maintenez et faites glisser pour réordonner",
+  "categoryNew": "Nouvelle catégorie",
+  "categoryEdit": "Modifier la catégorie",
+  "categoryParent": "Catégorie parente",
+  "categoryMerge": "Fusionner",
+  "categoryMergeInto": "Fusionner dans…",
+  "categoryDeleteTitle": "Supprimer la catégorie",
+  "categoryDeleteReassign": "{n} opérations utilisent cette catégorie. Choisissez une catégorie de remplacement.",
+  "@categoryDeleteReassign": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "categoryPickReplacement": "Choisir un remplacement",
+  "categoryArchivedBudgets": "{n} budget(s) archivé(s)",
+  "@categoryArchivedBudgets": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "categoryEmpty": "Aucune catégorie",
+  "tagsEmpty": "Aucune étiquette",
+  "tagNew": "Nouvelle étiquette",
+  "tagUsage": "{n} utilisations",
+  "@tagUsage": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ratesTitle": "Taux de change",
+  "ratesEmpty": "Aucun taux. Ajoutez-en un pour convertir les devises.",
+  "rateAdd": "Ajouter un taux",
+  "rateValue": "Taux",
+  "rateFrom": "De",
+  "rateTo": "Vers",
+  "rateHistory": "Historique",
+  "rateLine": "1 {from} = {rate} {to}",
+  "@rateLine": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "kindExpense": "Dépenses",
+  "kindIncome": "Revenus",
+  "reportTitle": "Rapport",
+  "reportExpensesTotal": "Total des dépenses",
+  "reportIncomeTotal": "Total des revenus",
+  "reportNoData": "Aucune donnée pour cette période",
+  "reportUncategorized": "Sans catégorie",
+  "reportCashFlow": "Flux de trésorerie",
+  "reportCashFlowNet": "Net",
+  "reportStats": "Statistiques",
+  "reportSavingsRate": "Taux d'épargne",
+  "reportAvgPerDay": "Moyenne par jour",
+  "reportTxCount": "Opérations",
+  "reportBiggest": "Plus grosse dépense",
+  "reportMostFrequent": "Catégorie la plus fréquente",
+  "reportTopPayee": "Bénéficiaire principal",
+  "reportByTag": "Par étiquette",
+  "reportByAccount": "Par compte",
+  "reportExportCsv": "Exporter en CSV",
+  "reportExportPdf": "Exporter en PDF",
+  "reportShowDonut": "Anneau",
+  "reportShowBars": "Barres",
+  "categoryDetailSubcategories": "Sous-catégories",
+  "categoryDetailTrend": "Évolution sur 6 périodes",
+  "categoryDetailTx": "Opérations de la période",
+  "insightsAll": "Toutes les alertes",
+  "planTitle": "Mon plan",
+  "planAddTitle": "Ajouter",
+  "planNewBudget": "Nouveau budget",
+  "planNewGoal": "Nouvel objectif",
+  "planNewRecurring": "Nouvelle opération récurrente",
+  "planNewDebt": "Nouvelle dette ou prêt",
+  "planGoals": "Objectifs",
+  "planBudgets": "Budgets",
+  "planRecurring": "Récurrentes et factures",
+  "planDebts": "Dettes et prêts",
+  "budgetsEmpty": "Aucun budget. Fixez une limite pour mieux maîtriser vos dépenses.",
+  "budgetEdit": "Modifier le budget",
+  "budgetName": "Nom (facultatif)",
+  "budgetAllCategories": "Toutes les dépenses",
+  "budgetCategory": "Catégorie",
+  "budgetIncludeSub": "Inclure les sous-catégories",
+  "budgetPeriodLabel": "Période",
+  "budgetRollover": "Reporter le reste",
+  "budgetThresholds": "Alertes à 80 % et 100 %",
+  "budgetSpent": "Dépensé",
+  "budgetLeft": "Reste",
+  "budgetOverBy": "Dépassement",
+  "budgetPerDay": "{amount} / jour",
+  "@budgetPerDay": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetProjected": "Projection : {amount}",
+  "@budgetProjected": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetDaysLeft": "{n} jours restants",
+  "@budgetDaysLeft": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetHistory": "Historique",
+  "budgetRolloverIn": "Report : {amount}",
+  "@budgetRolloverIn": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetTransactions": "Opérations du budget",
+  "budgetDeleteConfirm": "Supprimer ce budget ?",
+  "goalsEmpty": "Aucun objectif. Créez-en un pour épargner avec un but.",
+  "goalNew": "Nouvel objectif",
+  "goalEdit": "Modifier l'objectif",
+  "goalTarget": "Montant cible",
+  "goalDeadline": "Échéance",
+  "goalStart": "Début",
+  "goalTracking": "Suivi",
+  "goalTrackManual": "Manuel",
+  "goalTrackLinked": "Lié à un compte",
+  "goalLinkedAccount": "Compte lié",
+  "goalSaved": "Épargné",
+  "goalRemaining": "Reste",
+  "goalContribute": "Verser",
+  "goalWithdraw": "Retirer",
+  "goalAmountField": "Montant",
+  "goalFromAccount": "Depuis le compte",
+  "goalOnTrack": "Dans les temps",
+  "goalBehind": "En retard de {n} %",
+  "@goalBehind": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "goalCompletedLabel": "Atteint",
+  "goalNoDeadline": "Sans échéance",
+  "goalNeeded": "{amount} par mois nécessaires",
+  "@goalNeeded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "goalEstimated": "Estimation : {date}",
+  "@goalEstimated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "goalCelebrate": "Objectif atteint ! Bravo 🎉",
+  "goalMarkComplete": "Marquer comme atteint",
+  "goalReactivate": "Réactiver",
+  "goalContributions": "Versements",
+  "goalDeleteConfirm": "Supprimer cet objectif et ses versements ?",
+  "recurringEmpty": "Aucune opération récurrente. Ajoutez vos factures et abonnements.",
+  "recurringNew": "Nouvelle récurrence",
+  "recurringEdit": "Modifier la récurrence",
+  "recurringNext": "Prochaine : {date}",
+  "@recurringNext": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "recurringPaused": "En pause",
+  "recurringSkipNext": "Passer la prochaine",
+  "recurringDeleteTitle": "Supprimer la récurrence",
+  "recurringKeepPast": "Garder les opérations passées",
+  "recurringDeletePast": "Supprimer aussi les opérations passées",
+  "recurringActive": "Active",
+  "debtsEmpty": "Aucune dette ni prêt.",
+  "debtNew": "Nouvelle dette",
+  "debtEdit": "Modifier la dette",
+  "debtIOwe": "Je dois",
+  "debtOwedToMe": "On me doit",
+  "debtPerson": "Personne",
+  "debtAmountField": "Montant",
+  "debtDue": "Échéance",
+  "debtPaid": "Payé",
+  "debtRemaining": "Reste",
+  "debtAddPayment": "Ajouter un paiement",
+  "debtSettle": "Marquer comme soldé",
+  "debtReopen": "Rouvrir",
+  "debtOverdue": "En retard",
+  "debtSettled": "Soldé",
+  "debtRecordOnly": "Enregistrer sans toucher aux comptes",
+  "debtPayments": "Paiements",
+  "debtStart": "Date",
+  "debtDeleteConfirm": "Supprimer cette dette ?",
+  "debtOpenTab": "En cours",
+  "debtSettledTab": "Soldées",
+  "notifCenterTitle": "Notifications",
+  "notifCenterEmpty": "Aucune notification",
+  "notifMarkAllRead": "Tout marquer comme lu",
+  "notifClear": "Effacer l'historique",
+  "notifSettingsMaster": "Activer les notifications",
+  "notifSettingsBudget": "Alertes de budget",
+  "notifSettingsBills": "Factures et récurrentes",
+  "notifSettingsGoals": "Objectifs",
+  "notifSettingsDebts": "Dettes et prêts",
+  "notifSettingsDaily": "Rappel quotidien",
+  "notifSettingsDailyTime": "Heure du rappel",
+  "notifSettingsBackup": "Rappels de sauvegarde",
+  "notifPermissionDenied": "Les notifications sont désactivées pour Floos dans les réglages du système.",
+  "notifRequestPermission": "Autoriser les notifications",
+  "notifSendTest": "Envoyer une notification test",
+  "backupNow": "Sauvegarder maintenant",
+  "backupPassword": "Mot de passe (facultatif)",
+  "backupPasswordHint": "Laissez vide pour une sauvegarde non chiffrée",
+  "backupCreated": "Sauvegarde créée",
+  "backupShare": "Partager la sauvegarde",
+  "backupAuto": "Sauvegarde automatique",
+  "backupAutoOff": "Désactivée",
+  "backupAutoDaily": "Quotidienne",
+  "backupAutoWeekly": "Hebdomadaire",
+  "backupAutoMonthly": "Mensuelle",
+  "backupKeep": "Sauvegardes conservées",
+  "backupLast": "Dernière sauvegarde : {date}",
+  "@backupLast": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupNever": "Aucune sauvegarde pour l'instant",
+  "backupRestore": "Restaurer une sauvegarde",
+  "backupRestorePreview": "Sauvegarde du {date} · {n} opérations",
+  "@backupRestorePreview": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreWarning": "La restauration remplace toutes les données actuelles. Une sauvegarde de sécurité sera créée avant.",
+  "backupRestoreDone": "Restauration terminée",
+  "backupEncrypted": "Cette sauvegarde est chiffrée. Saisissez le mot de passe.",
+  "dataExportCsv": "Exporter les opérations (CSV)",
+  "dataImportCsv": "Importer un fichier CSV",
+  "dataDeleteAll": "Supprimer toutes les données",
+  "dataDeleteAllBody": "Toutes vos données seront définitivement supprimées. Tapez SUPPRIMER pour confirmer.",
+  "dataDeleteWord": "SUPPRIMER",
+  "dataDeleted": "Données supprimées",
+  "csvStepFile": "Fichier",
+  "csvStepMapping": "Colonnes",
+  "csvStepReview": "Vérification",
+  "csvStepImport": "Import",
+  "csvPickFile": "Choisir un fichier CSV",
+  "csvDateFormat": "Format de date",
+  "csvDecimalComma": "Virgule décimale",
+  "csvNotMapped": "— Non importé —",
+  "csvRows": "{n} lignes valides, {e} erreurs, {d} doublons",
+  "@csvRows": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "e": {
+        "type": "int"
+      },
+      "d": {
+        "type": "int"
+      }
+    }
+  },
+  "csvImportDuplicates": "Importer aussi les doublons",
+  "csvUnknownAccounts": "Comptes inconnus (créés automatiquement)",
+  "csvUnknownCategories": "Catégories inconnues (créées automatiquement)",
+  "csvDoImport": "Importer",
+  "csvReport": "{n} importées, {s} ignorées, {e} erreurs",
+  "@csvReport": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "s": {
+        "type": "int"
+      },
+      "e": {
+        "type": "int"
+      }
+    }
+  },
+  "csvFallbackAccount": "Compte par défaut",
+  "csvFieldDate": "Date",
+  "csvFieldTime": "Heure",
+  "csvFieldType": "Type",
+  "csvFieldAmount": "Montant",
+  "csvFieldCurrency": "Devise",
+  "csvFieldAccount": "Compte",
+  "csvFieldToAccount": "Vers le compte",
+  "csvFieldToAmount": "Montant reçu",
+  "csvFieldCategory": "Catégorie",
+  "csvFieldParentCategory": "Catégorie parente",
+  "csvFieldPayee": "Bénéficiaire",
+  "csvFieldNote": "Note",
+  "csvFieldTags": "Étiquettes",
+  "csvFieldId": "Identifiant"
 }

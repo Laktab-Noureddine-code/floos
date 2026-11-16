@@ -141,8 +141,11 @@ final prefsStreamProvider = StreamProvider<AppPrefs>((ref) => ref.watch(settings
 
 /// Current settings (defaults while loading).
 final prefsProvider = Provider<AppPrefs>(
-  (ref) => ref.watch(prefsStreamProvider).value ?? AppPrefs.defaults,
+  (ref) => ref.watch(prefsStreamProvider).value ?? ref.watch(initialPrefsProvider),
 );
+
+/// Settings loaded at bootstrap (avoids a first-frame flash of defaults).
+final initialPrefsProvider = Provider<AppPrefs>((ref) => AppPrefs.defaults);
 
 final fxStreamProvider = StreamProvider<FxService>((ref) => ref.watch(ratesRepoProvider).watchFx());
 

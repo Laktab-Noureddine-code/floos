@@ -1201,4 +1201,1057 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get periodCustomRange => 'Plage personnalisée';
+
+  @override
+  String get txListTitle => 'Transactions';
+
+  @override
+  String get txSearchHint => 'Rechercher (bénéficiaire, note, =45, >100)';
+
+  @override
+  String get filterTitle => 'Filtres';
+
+  @override
+  String get filterDateRange => 'Période';
+
+  @override
+  String get filterTypes => 'Types';
+
+  @override
+  String get filterAccounts => 'Comptes';
+
+  @override
+  String get filterCategories => 'Catégories';
+
+  @override
+  String get filterTags => 'Étiquettes';
+
+  @override
+  String get filterAmountMin => 'Montant min.';
+
+  @override
+  String get filterAmountMax => 'Montant max.';
+
+  @override
+  String get filterHasAttachment => 'Avec justificatif';
+
+  @override
+  String get filterPendingOnly => 'À confirmer uniquement';
+
+  @override
+  String get filterClearAll => 'Tout effacer';
+
+  @override
+  String filterCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count filtres',
+      one: '1 filtre',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get footerIn => 'Entrées';
+
+  @override
+  String get footerOut => 'Sorties';
+
+  @override
+  String get footerNet => 'Net';
+
+  @override
+  String get bulkDelete => 'Supprimer';
+
+  @override
+  String get bulkCategory => 'Changer la catégorie';
+
+  @override
+  String get bulkAccount => 'Changer le compte';
+
+  @override
+  String get bulkTag => 'Ajouter une étiquette';
+
+  @override
+  String get bulkExport => 'Exporter en CSV';
+
+  @override
+  String get bulkDone => 'Modifications appliquées';
+
+  @override
+  String get searchNoResults =>
+      'Aucun résultat. Essayez d\'autres mots ou retirez des filtres.';
+
+  @override
+  String get csvSeparator => 'Séparateur';
+
+  @override
+  String get csvComma => 'Virgule (,)';
+
+  @override
+  String get csvSemicolon => 'Point-virgule (;)';
+
+  @override
+  String get csvExported => 'Fichier CSV prêt';
+
+  @override
+  String get chooseTag => 'Choisir une étiquette';
+
+  @override
+  String get obWelcomeTitle => 'Bienvenue sur Floos';
+
+  @override
+  String get obWelcomeBody =>
+      'Suivez vos dépenses, budgets et objectifs. Tout reste sur votre téléphone, hors ligne.';
+
+  @override
+  String get obStart => 'Commencer';
+
+  @override
+  String get obCurrencyTitle => 'Votre devise';
+
+  @override
+  String get obCurrencyBody =>
+      'Choisissez la devise principale et le jour de début de mois.';
+
+  @override
+  String get obMonthStart => 'Le mois commence le';
+
+  @override
+  String get obAccountTitle => 'Votre premier compte';
+
+  @override
+  String get obAccountBody =>
+      'Ajoutez un compte (espèces, banque…) avec son solde actuel.';
+
+  @override
+  String get obAccountName => 'Nom du compte';
+
+  @override
+  String get obAccountDefault => 'Espèces';
+
+  @override
+  String get obInitialBalance => 'Solde actuel';
+
+  @override
+  String get obSecurityTitle => 'Sécurisez Floos';
+
+  @override
+  String get obSecurityBody =>
+      'Protégez l\'accès avec un code PIN. Vous pourrez le changer plus tard.';
+
+  @override
+  String get obSetPin => 'Définir un code PIN';
+
+  @override
+  String get obSkipPin => 'Plus tard';
+
+  @override
+  String get obFinish => 'Terminer';
+
+  @override
+  String obStep(int n, int total) {
+    return 'Étape $n sur $total';
+  }
+
+  @override
+  String get pinEnter => 'Saisissez votre code PIN';
+
+  @override
+  String get pinCreate => 'Créez un code PIN (4 à 6 chiffres)';
+
+  @override
+  String get pinConfirm => 'Confirmez le code PIN';
+
+  @override
+  String get pinCurrent => 'Code PIN actuel';
+
+  @override
+  String get pinWrong => 'Code PIN incorrect';
+
+  @override
+  String pinLocked(int s) {
+    return 'Trop d\'essais. Réessayez dans $s s.';
+  }
+
+  @override
+  String get pinForgot => 'Code PIN oublié ?';
+
+  @override
+  String get pinUseBiometrics => 'Utiliser la biométrie';
+
+  @override
+  String get pinBiometricReason => 'Déverrouiller Floos';
+
+  @override
+  String get pinForgotTitle => 'Réinitialiser l\'accès';
+
+  @override
+  String get pinForgotBody =>
+      'Vous pouvez vous authentifier par biométrie, ou effacer toutes les données de l\'application.';
+
+  @override
+  String get pinWipeAll => 'Effacer toutes les données';
+
+  @override
+  String get pinWipeConfirm1 =>
+      'Toutes vos données seront définitivement supprimées. Continuer ?';
+
+  @override
+  String get pinWipeConfirm2 =>
+      'Dernière confirmation : cette action est irréversible.';
+
+  @override
+  String get pinChanged => 'Code PIN modifié';
+
+  @override
+  String get settingsTitle => 'Réglages';
+
+  @override
+  String get settingsProfile => 'Profil';
+
+  @override
+  String get settingsDisplayName => 'Votre prénom';
+
+  @override
+  String get settingsGeneral => 'Général';
+
+  @override
+  String get settingsBaseCurrency => 'Devise principale';
+
+  @override
+  String get settingsMonthStart => 'Début du mois';
+
+  @override
+  String get settingsWeekStart => 'Début de la semaine';
+
+  @override
+  String get weekMonday => 'Lundi';
+
+  @override
+  String get weekSaturday => 'Samedi';
+
+  @override
+  String get weekSunday => 'Dimanche';
+
+  @override
+  String get settingsTheme => 'Thème';
+
+  @override
+  String get themeSystem => 'Système';
+
+  @override
+  String get themeLight => 'Clair';
+
+  @override
+  String get themeDark => 'Sombre';
+
+  @override
+  String get settingsHideAmounts => 'Masquer les montants au démarrage';
+
+  @override
+  String get settingsManage => 'Gérer';
+
+  @override
+  String get settingsRates => 'Taux de change';
+
+  @override
+  String get settingsNotifications => 'Notifications';
+
+  @override
+  String get settingsSecurity => 'Sécurité';
+
+  @override
+  String get settingsBackup => 'Sauvegarde et données';
+
+  @override
+  String get settingsAbout => 'À propos';
+
+  @override
+  String get securityLock => 'Verrouillage par code PIN';
+
+  @override
+  String get securityChangePin => 'Changer le code PIN';
+
+  @override
+  String get securityBiometrics => 'Déverrouillage biométrique';
+
+  @override
+  String get securityTimeout => 'Verrouiller après';
+
+  @override
+  String get timeoutImmediate => 'Immédiatement';
+
+  @override
+  String get timeout30 => '30 secondes';
+
+  @override
+  String get timeout60 => '1 minute';
+
+  @override
+  String get timeout300 => '5 minutes';
+
+  @override
+  String get securitySecureFlag =>
+      'Masquer l\'aperçu dans les applications récentes';
+
+  @override
+  String get aboutVersion => 'Version';
+
+  @override
+  String get aboutPrivacy => 'Confidentialité';
+
+  @override
+  String get aboutPrivacyBody =>
+      'Floos fonctionne entièrement hors ligne. Aucune donnée ne quitte votre appareil, sauf sauvegardes que vous partagez vous-même.';
+
+  @override
+  String get aboutLicenses => 'Licences open source';
+
+  @override
+  String get aboutDiagnostics => 'Diagnostics';
+
+  @override
+  String get diagEmpty => 'Aucune erreur enregistrée';
+
+  @override
+  String get diagExport => 'Exporter le journal';
+
+  @override
+  String get diagClear => 'Effacer le journal';
+
+  @override
+  String baseCurrencyBlocked(String codes) {
+    return 'Taux manquants pour $codes. Ajoutez-les avant de changer de devise.';
+  }
+
+  @override
+  String get errorLoading => 'Une erreur est survenue';
+
+  @override
+  String get splashLoading => 'Chargement…';
+
+  @override
+  String get accountNew => 'Nouveau compte';
+
+  @override
+  String get accountEdit => 'Modifier le compte';
+
+  @override
+  String get accountTypeCash => 'Espèces';
+
+  @override
+  String get accountTypeBank => 'Banque';
+
+  @override
+  String get accountTypeCard => 'Carte';
+
+  @override
+  String get accountTypeSavings => 'Épargne';
+
+  @override
+  String get accountTypeEwallet => 'Portefeuille électronique';
+
+  @override
+  String get accountTypeOther => 'Autre';
+
+  @override
+  String get accountInitialBalance => 'Solde initial';
+
+  @override
+  String get accountIncludeTotal => 'Inclure dans le total';
+
+  @override
+  String get accountArchivedSection => 'Archivés';
+
+  @override
+  String get accountReconcile => 'Rapprocher le solde';
+
+  @override
+  String get accountReconcileBody =>
+      'Saisissez le solde réel. Un ajustement sera créé pour la différence.';
+
+  @override
+  String get accountRealBalance => 'Solde réel';
+
+  @override
+  String get accountReconciled => 'Solde rapproché';
+
+  @override
+  String get accountBalanceHistory => 'Solde sur 6 mois';
+
+  @override
+  String get accountDeleteTitle => 'Supprimer le compte';
+
+  @override
+  String accountDeleteBody(int n) {
+    return 'Ce compte contient $n opérations. Que faire ?';
+  }
+
+  @override
+  String get accountMoveTo => 'Déplacer les opérations vers…';
+
+  @override
+  String get accountDeleteAll => 'Supprimer aussi les opérations';
+
+  @override
+  String get accountTotalBalance => 'Solde total';
+
+  @override
+  String get accountsEmpty => 'Aucun compte';
+
+  @override
+  String get accountTransactions => 'Opérations';
+
+  @override
+  String get reorderHint => 'Maintenez et faites glisser pour réordonner';
+
+  @override
+  String get categoryNew => 'Nouvelle catégorie';
+
+  @override
+  String get categoryEdit => 'Modifier la catégorie';
+
+  @override
+  String get categoryParent => 'Catégorie parente';
+
+  @override
+  String get categoryMerge => 'Fusionner';
+
+  @override
+  String get categoryMergeInto => 'Fusionner dans…';
+
+  @override
+  String get categoryDeleteTitle => 'Supprimer la catégorie';
+
+  @override
+  String categoryDeleteReassign(int n) {
+    return '$n opérations utilisent cette catégorie. Choisissez une catégorie de remplacement.';
+  }
+
+  @override
+  String get categoryPickReplacement => 'Choisir un remplacement';
+
+  @override
+  String categoryArchivedBudgets(int n) {
+    return '$n budget(s) archivé(s)';
+  }
+
+  @override
+  String get categoryEmpty => 'Aucune catégorie';
+
+  @override
+  String get tagsEmpty => 'Aucune étiquette';
+
+  @override
+  String get tagNew => 'Nouvelle étiquette';
+
+  @override
+  String tagUsage(int n) {
+    return '$n utilisations';
+  }
+
+  @override
+  String get ratesTitle => 'Taux de change';
+
+  @override
+  String get ratesEmpty =>
+      'Aucun taux. Ajoutez-en un pour convertir les devises.';
+
+  @override
+  String get rateAdd => 'Ajouter un taux';
+
+  @override
+  String get rateValue => 'Taux';
+
+  @override
+  String get rateFrom => 'De';
+
+  @override
+  String get rateTo => 'Vers';
+
+  @override
+  String get rateHistory => 'Historique';
+
+  @override
+  String rateLine(String from, String rate, String to) {
+    return '1 $from = $rate $to';
+  }
+
+  @override
+  String get kindExpense => 'Dépenses';
+
+  @override
+  String get kindIncome => 'Revenus';
+
+  @override
+  String get reportTitle => 'Rapport';
+
+  @override
+  String get reportExpensesTotal => 'Total des dépenses';
+
+  @override
+  String get reportIncomeTotal => 'Total des revenus';
+
+  @override
+  String get reportNoData => 'Aucune donnée pour cette période';
+
+  @override
+  String get reportUncategorized => 'Sans catégorie';
+
+  @override
+  String get reportCashFlow => 'Flux de trésorerie';
+
+  @override
+  String get reportCashFlowNet => 'Net';
+
+  @override
+  String get reportStats => 'Statistiques';
+
+  @override
+  String get reportSavingsRate => 'Taux d\'épargne';
+
+  @override
+  String get reportAvgPerDay => 'Moyenne par jour';
+
+  @override
+  String get reportTxCount => 'Opérations';
+
+  @override
+  String get reportBiggest => 'Plus grosse dépense';
+
+  @override
+  String get reportMostFrequent => 'Catégorie la plus fréquente';
+
+  @override
+  String get reportTopPayee => 'Bénéficiaire principal';
+
+  @override
+  String get reportByTag => 'Par étiquette';
+
+  @override
+  String get reportByAccount => 'Par compte';
+
+  @override
+  String get reportExportCsv => 'Exporter en CSV';
+
+  @override
+  String get reportExportPdf => 'Exporter en PDF';
+
+  @override
+  String get reportShowDonut => 'Anneau';
+
+  @override
+  String get reportShowBars => 'Barres';
+
+  @override
+  String get categoryDetailSubcategories => 'Sous-catégories';
+
+  @override
+  String get categoryDetailTrend => 'Évolution sur 6 périodes';
+
+  @override
+  String get categoryDetailTx => 'Opérations de la période';
+
+  @override
+  String get insightsAll => 'Toutes les alertes';
+
+  @override
+  String get planTitle => 'Mon plan';
+
+  @override
+  String get planAddTitle => 'Ajouter';
+
+  @override
+  String get planNewBudget => 'Nouveau budget';
+
+  @override
+  String get planNewGoal => 'Nouvel objectif';
+
+  @override
+  String get planNewRecurring => 'Nouvelle opération récurrente';
+
+  @override
+  String get planNewDebt => 'Nouvelle dette ou prêt';
+
+  @override
+  String get planGoals => 'Objectifs';
+
+  @override
+  String get planBudgets => 'Budgets';
+
+  @override
+  String get planRecurring => 'Récurrentes et factures';
+
+  @override
+  String get planDebts => 'Dettes et prêts';
+
+  @override
+  String get budgetsEmpty =>
+      'Aucun budget. Fixez une limite pour mieux maîtriser vos dépenses.';
+
+  @override
+  String get budgetEdit => 'Modifier le budget';
+
+  @override
+  String get budgetName => 'Nom (facultatif)';
+
+  @override
+  String get budgetAllCategories => 'Toutes les dépenses';
+
+  @override
+  String get budgetCategory => 'Catégorie';
+
+  @override
+  String get budgetIncludeSub => 'Inclure les sous-catégories';
+
+  @override
+  String get budgetPeriodLabel => 'Période';
+
+  @override
+  String get budgetRollover => 'Reporter le reste';
+
+  @override
+  String get budgetThresholds => 'Alertes à 80 % et 100 %';
+
+  @override
+  String get budgetSpent => 'Dépensé';
+
+  @override
+  String get budgetLeft => 'Reste';
+
+  @override
+  String get budgetOverBy => 'Dépassement';
+
+  @override
+  String budgetPerDay(String amount) {
+    return '$amount / jour';
+  }
+
+  @override
+  String budgetProjected(String amount) {
+    return 'Projection : $amount';
+  }
+
+  @override
+  String budgetDaysLeft(int n) {
+    return '$n jours restants';
+  }
+
+  @override
+  String get budgetHistory => 'Historique';
+
+  @override
+  String budgetRolloverIn(String amount) {
+    return 'Report : $amount';
+  }
+
+  @override
+  String get budgetTransactions => 'Opérations du budget';
+
+  @override
+  String get budgetDeleteConfirm => 'Supprimer ce budget ?';
+
+  @override
+  String get goalsEmpty =>
+      'Aucun objectif. Créez-en un pour épargner avec un but.';
+
+  @override
+  String get goalNew => 'Nouvel objectif';
+
+  @override
+  String get goalEdit => 'Modifier l\'objectif';
+
+  @override
+  String get goalTarget => 'Montant cible';
+
+  @override
+  String get goalDeadline => 'Échéance';
+
+  @override
+  String get goalStart => 'Début';
+
+  @override
+  String get goalTracking => 'Suivi';
+
+  @override
+  String get goalTrackManual => 'Manuel';
+
+  @override
+  String get goalTrackLinked => 'Lié à un compte';
+
+  @override
+  String get goalLinkedAccount => 'Compte lié';
+
+  @override
+  String get goalSaved => 'Épargné';
+
+  @override
+  String get goalRemaining => 'Reste';
+
+  @override
+  String get goalContribute => 'Verser';
+
+  @override
+  String get goalWithdraw => 'Retirer';
+
+  @override
+  String get goalAmountField => 'Montant';
+
+  @override
+  String get goalFromAccount => 'Depuis le compte';
+
+  @override
+  String get goalOnTrack => 'Dans les temps';
+
+  @override
+  String goalBehind(int n) {
+    return 'En retard de $n %';
+  }
+
+  @override
+  String get goalCompletedLabel => 'Atteint';
+
+  @override
+  String get goalNoDeadline => 'Sans échéance';
+
+  @override
+  String goalNeeded(String amount) {
+    return '$amount par mois nécessaires';
+  }
+
+  @override
+  String goalEstimated(String date) {
+    return 'Estimation : $date';
+  }
+
+  @override
+  String get goalCelebrate => 'Objectif atteint ! Bravo 🎉';
+
+  @override
+  String get goalMarkComplete => 'Marquer comme atteint';
+
+  @override
+  String get goalReactivate => 'Réactiver';
+
+  @override
+  String get goalContributions => 'Versements';
+
+  @override
+  String get goalDeleteConfirm => 'Supprimer cet objectif et ses versements ?';
+
+  @override
+  String get recurringEmpty =>
+      'Aucune opération récurrente. Ajoutez vos factures et abonnements.';
+
+  @override
+  String get recurringNew => 'Nouvelle récurrence';
+
+  @override
+  String get recurringEdit => 'Modifier la récurrence';
+
+  @override
+  String recurringNext(String date) {
+    return 'Prochaine : $date';
+  }
+
+  @override
+  String get recurringPaused => 'En pause';
+
+  @override
+  String get recurringSkipNext => 'Passer la prochaine';
+
+  @override
+  String get recurringDeleteTitle => 'Supprimer la récurrence';
+
+  @override
+  String get recurringKeepPast => 'Garder les opérations passées';
+
+  @override
+  String get recurringDeletePast => 'Supprimer aussi les opérations passées';
+
+  @override
+  String get recurringActive => 'Active';
+
+  @override
+  String get debtsEmpty => 'Aucune dette ni prêt.';
+
+  @override
+  String get debtNew => 'Nouvelle dette';
+
+  @override
+  String get debtEdit => 'Modifier la dette';
+
+  @override
+  String get debtIOwe => 'Je dois';
+
+  @override
+  String get debtOwedToMe => 'On me doit';
+
+  @override
+  String get debtPerson => 'Personne';
+
+  @override
+  String get debtAmountField => 'Montant';
+
+  @override
+  String get debtDue => 'Échéance';
+
+  @override
+  String get debtPaid => 'Payé';
+
+  @override
+  String get debtRemaining => 'Reste';
+
+  @override
+  String get debtAddPayment => 'Ajouter un paiement';
+
+  @override
+  String get debtSettle => 'Marquer comme soldé';
+
+  @override
+  String get debtReopen => 'Rouvrir';
+
+  @override
+  String get debtOverdue => 'En retard';
+
+  @override
+  String get debtSettled => 'Soldé';
+
+  @override
+  String get debtRecordOnly => 'Enregistrer sans toucher aux comptes';
+
+  @override
+  String get debtPayments => 'Paiements';
+
+  @override
+  String get debtStart => 'Date';
+
+  @override
+  String get debtDeleteConfirm => 'Supprimer cette dette ?';
+
+  @override
+  String get debtOpenTab => 'En cours';
+
+  @override
+  String get debtSettledTab => 'Soldées';
+
+  @override
+  String get notifCenterTitle => 'Notifications';
+
+  @override
+  String get notifCenterEmpty => 'Aucune notification';
+
+  @override
+  String get notifMarkAllRead => 'Tout marquer comme lu';
+
+  @override
+  String get notifClear => 'Effacer l\'historique';
+
+  @override
+  String get notifSettingsMaster => 'Activer les notifications';
+
+  @override
+  String get notifSettingsBudget => 'Alertes de budget';
+
+  @override
+  String get notifSettingsBills => 'Factures et récurrentes';
+
+  @override
+  String get notifSettingsGoals => 'Objectifs';
+
+  @override
+  String get notifSettingsDebts => 'Dettes et prêts';
+
+  @override
+  String get notifSettingsDaily => 'Rappel quotidien';
+
+  @override
+  String get notifSettingsDailyTime => 'Heure du rappel';
+
+  @override
+  String get notifSettingsBackup => 'Rappels de sauvegarde';
+
+  @override
+  String get notifPermissionDenied =>
+      'Les notifications sont désactivées pour Floos dans les réglages du système.';
+
+  @override
+  String get notifRequestPermission => 'Autoriser les notifications';
+
+  @override
+  String get notifSendTest => 'Envoyer une notification test';
+
+  @override
+  String get backupNow => 'Sauvegarder maintenant';
+
+  @override
+  String get backupPassword => 'Mot de passe (facultatif)';
+
+  @override
+  String get backupPasswordHint =>
+      'Laissez vide pour une sauvegarde non chiffrée';
+
+  @override
+  String get backupCreated => 'Sauvegarde créée';
+
+  @override
+  String get backupShare => 'Partager la sauvegarde';
+
+  @override
+  String get backupAuto => 'Sauvegarde automatique';
+
+  @override
+  String get backupAutoOff => 'Désactivée';
+
+  @override
+  String get backupAutoDaily => 'Quotidienne';
+
+  @override
+  String get backupAutoWeekly => 'Hebdomadaire';
+
+  @override
+  String get backupAutoMonthly => 'Mensuelle';
+
+  @override
+  String get backupKeep => 'Sauvegardes conservées';
+
+  @override
+  String backupLast(String date) {
+    return 'Dernière sauvegarde : $date';
+  }
+
+  @override
+  String get backupNever => 'Aucune sauvegarde pour l\'instant';
+
+  @override
+  String get backupRestore => 'Restaurer une sauvegarde';
+
+  @override
+  String backupRestorePreview(String date, int n) {
+    return 'Sauvegarde du $date · $n opérations';
+  }
+
+  @override
+  String get backupRestoreWarning =>
+      'La restauration remplace toutes les données actuelles. Une sauvegarde de sécurité sera créée avant.';
+
+  @override
+  String get backupRestoreDone => 'Restauration terminée';
+
+  @override
+  String get backupEncrypted =>
+      'Cette sauvegarde est chiffrée. Saisissez le mot de passe.';
+
+  @override
+  String get dataExportCsv => 'Exporter les opérations (CSV)';
+
+  @override
+  String get dataImportCsv => 'Importer un fichier CSV';
+
+  @override
+  String get dataDeleteAll => 'Supprimer toutes les données';
+
+  @override
+  String get dataDeleteAllBody =>
+      'Toutes vos données seront définitivement supprimées. Tapez SUPPRIMER pour confirmer.';
+
+  @override
+  String get dataDeleteWord => 'SUPPRIMER';
+
+  @override
+  String get dataDeleted => 'Données supprimées';
+
+  @override
+  String get csvStepFile => 'Fichier';
+
+  @override
+  String get csvStepMapping => 'Colonnes';
+
+  @override
+  String get csvStepReview => 'Vérification';
+
+  @override
+  String get csvStepImport => 'Import';
+
+  @override
+  String get csvPickFile => 'Choisir un fichier CSV';
+
+  @override
+  String get csvDateFormat => 'Format de date';
+
+  @override
+  String get csvDecimalComma => 'Virgule décimale';
+
+  @override
+  String get csvNotMapped => '— Non importé —';
+
+  @override
+  String csvRows(int n, int e, int d) {
+    return '$n lignes valides, $e erreurs, $d doublons';
+  }
+
+  @override
+  String get csvImportDuplicates => 'Importer aussi les doublons';
+
+  @override
+  String get csvUnknownAccounts => 'Comptes inconnus (créés automatiquement)';
+
+  @override
+  String get csvUnknownCategories =>
+      'Catégories inconnues (créées automatiquement)';
+
+  @override
+  String get csvDoImport => 'Importer';
+
+  @override
+  String csvReport(int n, int s, int e) {
+    return '$n importées, $s ignorées, $e erreurs';
+  }
+
+  @override
+  String get csvFallbackAccount => 'Compte par défaut';
+
+  @override
+  String get csvFieldDate => 'Date';
+
+  @override
+  String get csvFieldTime => 'Heure';
+
+  @override
+  String get csvFieldType => 'Type';
+
+  @override
+  String get csvFieldAmount => 'Montant';
+
+  @override
+  String get csvFieldCurrency => 'Devise';
+
+  @override
+  String get csvFieldAccount => 'Compte';
+
+  @override
+  String get csvFieldToAccount => 'Vers le compte';
+
+  @override
+  String get csvFieldToAmount => 'Montant reçu';
+
+  @override
+  String get csvFieldCategory => 'Catégorie';
+
+  @override
+  String get csvFieldParentCategory => 'Catégorie parente';
+
+  @override
+  String get csvFieldPayee => 'Bénéficiaire';
+
+  @override
+  String get csvFieldNote => 'Note';
+
+  @override
+  String get csvFieldTags => 'Étiquettes';
+
+  @override
+  String get csvFieldId => 'Identifiant';
 }

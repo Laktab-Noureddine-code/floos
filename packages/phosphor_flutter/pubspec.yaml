@@ -1,0 +1,24 @@
+name: phosphor_flutter
+description: Local patch of phosphor_flutter 2.1.0 compatible with Flutter versions where IconData is a final class (Regular, Bold, Fill only).
+version: 2.1.0+floos
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: PhosphorBold
+      fonts:
+        - asset: lib/fonts/Phosphor-Bold.ttf
+    - family: PhosphorFill
+      fonts:
+        - asset: lib/fonts/Phosphor-Fill.ttf
+    - family: PhosphorRegular
+      fonts:
+        - asset: lib/fonts/Phosphor.ttf

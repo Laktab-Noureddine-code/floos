@@ -6,6 +6,23 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>NSFaceIDUsageDescription</key>
+	<string>Floos utilise Face ID pour déverrouiller l'application.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Floos utilise l'appareil photo pour joindre un reçu à une opération.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Floos accède à vos photos pour joindre un reçu à une opération.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.floos.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>floos</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Floos</string>
 	<key>CFBundleExecutable</key>

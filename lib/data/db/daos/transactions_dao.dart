@@ -310,10 +310,10 @@ class TransactionsDao extends DatabaseAccessor<AppDatabase>
 
   String _order(TxOrder o) => switch (o) {
     TxOrder.dateDesc =>
-      'ORDER BY t.date DESC, coalesce(t.time_of_day_minutes, -1) DESC, t.created_at DESC',
+      'ORDER BY t.date DESC, coalesce(t.time_of_day_minutes, -1) DESC, t.created_at DESC, t.rowid DESC',
     TxOrder.updatedDesc => 'ORDER BY t.updated_at DESC',
     TxOrder.pinnedThenDate =>
-      'ORDER BY t.pinned DESC, t.date DESC, coalesce(t.time_of_day_minutes, -1) DESC, t.created_at DESC',
+      'ORDER BY t.pinned DESC, t.date DESC, coalesce(t.time_of_day_minutes, -1) DESC, t.created_at DESC, t.rowid DESC',
   };
 
   Selectable<TxView> _viewQuery(TxFilter f, TxOrder order, {int? limit, int? offset}) {
@@ -379,15 +379,15 @@ class TransactionsDao extends DatabaseAccessor<AppDatabase>
     final rows = await customSelect(
       '''
       WITH legs AS (
-        SELECT id, account_id AS acc, date, coalesce(time_of_day_minutes, -1) AS tm, created_at,
+        SELECT id, account_id AS acc, date, coalesce(time_of_day_minutes, -1) AS tm, created_at, rowid AS rid,
                CASE type WHEN 'income' THEN amount ELSE -amount END AS d, 1 AS src
           FROM transactions WHERE is_pending = 0 AND account_id IN ($qa)
         UNION ALL
-        SELECT id, to_account_id AS acc, date, coalesce(time_of_day_minutes, -1) AS tm, created_at,
+        SELECT id, to_account_id AS acc, date, coalesce(time_of_day_minutes, -1) AS tm, created_at, rowid AS rid,
                coalesce(to_amount, amount) AS d, 0 AS src
           FROM transactions WHERE is_pending = 0 AND type = 'transfer' AND to_account_id IN ($qa)
       ), run AS (
-        SELECT id, src, SUM(d) OVER (PARTITION BY acc ORDER BY date, tm, created_at, id, src
+        SELECT id, src, SUM(d) OVER (PARTITION BY acc ORDER BY date, tm, created_at, rid, id, src
                                      ROWS UNBOUNDED PRECEDING) AS bal FROM legs
       )
       SELECT id, bal FROM run WHERE src = 1 AND id IN ($qt)

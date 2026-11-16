@@ -2103,6 +2103,1974 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Plage personnalisée'**
   String get periodCustomRange;
+
+  /// No description provided for @txListTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Transactions'**
+  String get txListTitle;
+
+  /// No description provided for @txSearchHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rechercher (bénéficiaire, note, =45, >100)'**
+  String get txSearchHint;
+
+  /// No description provided for @filterTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Filtres'**
+  String get filterTitle;
+
+  /// No description provided for @filterDateRange.
+  ///
+  /// In fr, this message translates to:
+  /// **'Période'**
+  String get filterDateRange;
+
+  /// No description provided for @filterTypes.
+  ///
+  /// In fr, this message translates to:
+  /// **'Types'**
+  String get filterTypes;
+
+  /// No description provided for @filterAccounts.
+  ///
+  /// In fr, this message translates to:
+  /// **'Comptes'**
+  String get filterAccounts;
+
+  /// No description provided for @filterCategories.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégories'**
+  String get filterCategories;
+
+  /// No description provided for @filterTags.
+  ///
+  /// In fr, this message translates to:
+  /// **'Étiquettes'**
+  String get filterTags;
+
+  /// No description provided for @filterAmountMin.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant min.'**
+  String get filterAmountMin;
+
+  /// No description provided for @filterAmountMax.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant max.'**
+  String get filterAmountMax;
+
+  /// No description provided for @filterHasAttachment.
+  ///
+  /// In fr, this message translates to:
+  /// **'Avec justificatif'**
+  String get filterHasAttachment;
+
+  /// No description provided for @filterPendingOnly.
+  ///
+  /// In fr, this message translates to:
+  /// **'À confirmer uniquement'**
+  String get filterPendingOnly;
+
+  /// No description provided for @filterClearAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tout effacer'**
+  String get filterClearAll;
+
+  /// No description provided for @filterCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{1 filtre} other{{count} filtres}}'**
+  String filterCount(int count);
+
+  /// No description provided for @footerIn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Entrées'**
+  String get footerIn;
+
+  /// No description provided for @footerOut.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sorties'**
+  String get footerOut;
+
+  /// No description provided for @footerNet.
+  ///
+  /// In fr, this message translates to:
+  /// **'Net'**
+  String get footerNet;
+
+  /// No description provided for @bulkDelete.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer'**
+  String get bulkDelete;
+
+  /// No description provided for @bulkCategory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Changer la catégorie'**
+  String get bulkCategory;
+
+  /// No description provided for @bulkAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Changer le compte'**
+  String get bulkAccount;
+
+  /// No description provided for @bulkTag.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter une étiquette'**
+  String get bulkTag;
+
+  /// No description provided for @bulkExport.
+  ///
+  /// In fr, this message translates to:
+  /// **'Exporter en CSV'**
+  String get bulkExport;
+
+  /// No description provided for @bulkDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifications appliquées'**
+  String get bulkDone;
+
+  /// No description provided for @searchNoResults.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun résultat. Essayez d\'autres mots ou retirez des filtres.'**
+  String get searchNoResults;
+
+  /// No description provided for @csvSeparator.
+  ///
+  /// In fr, this message translates to:
+  /// **'Séparateur'**
+  String get csvSeparator;
+
+  /// No description provided for @csvComma.
+  ///
+  /// In fr, this message translates to:
+  /// **'Virgule (,)'**
+  String get csvComma;
+
+  /// No description provided for @csvSemicolon.
+  ///
+  /// In fr, this message translates to:
+  /// **'Point-virgule (;)'**
+  String get csvSemicolon;
+
+  /// No description provided for @csvExported.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fichier CSV prêt'**
+  String get csvExported;
+
+  /// No description provided for @chooseTag.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir une étiquette'**
+  String get chooseTag;
+
+  /// No description provided for @obWelcomeTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bienvenue sur Floos'**
+  String get obWelcomeTitle;
+
+  /// No description provided for @obWelcomeBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Suivez vos dépenses, budgets et objectifs. Tout reste sur votre téléphone, hors ligne.'**
+  String get obWelcomeBody;
+
+  /// No description provided for @obStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Commencer'**
+  String get obStart;
+
+  /// No description provided for @obCurrencyTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Votre devise'**
+  String get obCurrencyTitle;
+
+  /// No description provided for @obCurrencyBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisissez la devise principale et le jour de début de mois.'**
+  String get obCurrencyBody;
+
+  /// No description provided for @obMonthStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Le mois commence le'**
+  String get obMonthStart;
+
+  /// No description provided for @obAccountTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Votre premier compte'**
+  String get obAccountTitle;
+
+  /// No description provided for @obAccountBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajoutez un compte (espèces, banque…) avec son solde actuel.'**
+  String get obAccountBody;
+
+  /// No description provided for @obAccountName.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nom du compte'**
+  String get obAccountName;
+
+  /// No description provided for @obAccountDefault.
+  ///
+  /// In fr, this message translates to:
+  /// **'Espèces'**
+  String get obAccountDefault;
+
+  /// No description provided for @obInitialBalance.
+  ///
+  /// In fr, this message translates to:
+  /// **'Solde actuel'**
+  String get obInitialBalance;
+
+  /// No description provided for @obSecurityTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sécurisez Floos'**
+  String get obSecurityTitle;
+
+  /// No description provided for @obSecurityBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Protégez l\'accès avec un code PIN. Vous pourrez le changer plus tard.'**
+  String get obSecurityBody;
+
+  /// No description provided for @obSetPin.
+  ///
+  /// In fr, this message translates to:
+  /// **'Définir un code PIN'**
+  String get obSetPin;
+
+  /// No description provided for @obSkipPin.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus tard'**
+  String get obSkipPin;
+
+  /// No description provided for @obFinish.
+  ///
+  /// In fr, this message translates to:
+  /// **'Terminer'**
+  String get obFinish;
+
+  /// No description provided for @obStep.
+  ///
+  /// In fr, this message translates to:
+  /// **'Étape {n} sur {total}'**
+  String obStep(int n, int total);
+
+  /// No description provided for @pinEnter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Saisissez votre code PIN'**
+  String get pinEnter;
+
+  /// No description provided for @pinCreate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Créez un code PIN (4 à 6 chiffres)'**
+  String get pinCreate;
+
+  /// No description provided for @pinConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Confirmez le code PIN'**
+  String get pinConfirm;
+
+  /// No description provided for @pinCurrent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Code PIN actuel'**
+  String get pinCurrent;
+
+  /// No description provided for @pinWrong.
+  ///
+  /// In fr, this message translates to:
+  /// **'Code PIN incorrect'**
+  String get pinWrong;
+
+  /// No description provided for @pinLocked.
+  ///
+  /// In fr, this message translates to:
+  /// **'Trop d\'essais. Réessayez dans {s} s.'**
+  String pinLocked(int s);
+
+  /// No description provided for @pinForgot.
+  ///
+  /// In fr, this message translates to:
+  /// **'Code PIN oublié ?'**
+  String get pinForgot;
+
+  /// No description provided for @pinUseBiometrics.
+  ///
+  /// In fr, this message translates to:
+  /// **'Utiliser la biométrie'**
+  String get pinUseBiometrics;
+
+  /// No description provided for @pinBiometricReason.
+  ///
+  /// In fr, this message translates to:
+  /// **'Déverrouiller Floos'**
+  String get pinBiometricReason;
+
+  /// No description provided for @pinForgotTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Réinitialiser l\'accès'**
+  String get pinForgotTitle;
+
+  /// No description provided for @pinForgotBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vous pouvez vous authentifier par biométrie, ou effacer toutes les données de l\'application.'**
+  String get pinForgotBody;
+
+  /// No description provided for @pinWipeAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Effacer toutes les données'**
+  String get pinWipeAll;
+
+  /// No description provided for @pinWipeConfirm1.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes vos données seront définitivement supprimées. Continuer ?'**
+  String get pinWipeConfirm1;
+
+  /// No description provided for @pinWipeConfirm2.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dernière confirmation : cette action est irréversible.'**
+  String get pinWipeConfirm2;
+
+  /// No description provided for @pinChanged.
+  ///
+  /// In fr, this message translates to:
+  /// **'Code PIN modifié'**
+  String get pinChanged;
+
+  /// No description provided for @settingsTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Réglages'**
+  String get settingsTitle;
+
+  /// No description provided for @settingsProfile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Profil'**
+  String get settingsProfile;
+
+  /// No description provided for @settingsDisplayName.
+  ///
+  /// In fr, this message translates to:
+  /// **'Votre prénom'**
+  String get settingsDisplayName;
+
+  /// No description provided for @settingsGeneral.
+  ///
+  /// In fr, this message translates to:
+  /// **'Général'**
+  String get settingsGeneral;
+
+  /// No description provided for @settingsBaseCurrency.
+  ///
+  /// In fr, this message translates to:
+  /// **'Devise principale'**
+  String get settingsBaseCurrency;
+
+  /// No description provided for @settingsMonthStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Début du mois'**
+  String get settingsMonthStart;
+
+  /// No description provided for @settingsWeekStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Début de la semaine'**
+  String get settingsWeekStart;
+
+  /// No description provided for @weekMonday.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lundi'**
+  String get weekMonday;
+
+  /// No description provided for @weekSaturday.
+  ///
+  /// In fr, this message translates to:
+  /// **'Samedi'**
+  String get weekSaturday;
+
+  /// No description provided for @weekSunday.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dimanche'**
+  String get weekSunday;
+
+  /// No description provided for @settingsTheme.
+  ///
+  /// In fr, this message translates to:
+  /// **'Thème'**
+  String get settingsTheme;
+
+  /// No description provided for @themeSystem.
+  ///
+  /// In fr, this message translates to:
+  /// **'Système'**
+  String get themeSystem;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Clair'**
+  String get themeLight;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sombre'**
+  String get themeDark;
+
+  /// No description provided for @settingsHideAmounts.
+  ///
+  /// In fr, this message translates to:
+  /// **'Masquer les montants au démarrage'**
+  String get settingsHideAmounts;
+
+  /// No description provided for @settingsManage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Gérer'**
+  String get settingsManage;
+
+  /// No description provided for @settingsRates.
+  ///
+  /// In fr, this message translates to:
+  /// **'Taux de change'**
+  String get settingsRates;
+
+  /// No description provided for @settingsNotifications.
+  ///
+  /// In fr, this message translates to:
+  /// **'Notifications'**
+  String get settingsNotifications;
+
+  /// No description provided for @settingsSecurity.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sécurité'**
+  String get settingsSecurity;
+
+  /// No description provided for @settingsBackup.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarde et données'**
+  String get settingsBackup;
+
+  /// No description provided for @settingsAbout.
+  ///
+  /// In fr, this message translates to:
+  /// **'À propos'**
+  String get settingsAbout;
+
+  /// No description provided for @securityLock.
+  ///
+  /// In fr, this message translates to:
+  /// **'Verrouillage par code PIN'**
+  String get securityLock;
+
+  /// No description provided for @securityChangePin.
+  ///
+  /// In fr, this message translates to:
+  /// **'Changer le code PIN'**
+  String get securityChangePin;
+
+  /// No description provided for @securityBiometrics.
+  ///
+  /// In fr, this message translates to:
+  /// **'Déverrouillage biométrique'**
+  String get securityBiometrics;
+
+  /// No description provided for @securityTimeout.
+  ///
+  /// In fr, this message translates to:
+  /// **'Verrouiller après'**
+  String get securityTimeout;
+
+  /// No description provided for @timeoutImmediate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Immédiatement'**
+  String get timeoutImmediate;
+
+  /// No description provided for @timeout30.
+  ///
+  /// In fr, this message translates to:
+  /// **'30 secondes'**
+  String get timeout30;
+
+  /// No description provided for @timeout60.
+  ///
+  /// In fr, this message translates to:
+  /// **'1 minute'**
+  String get timeout60;
+
+  /// No description provided for @timeout300.
+  ///
+  /// In fr, this message translates to:
+  /// **'5 minutes'**
+  String get timeout300;
+
+  /// No description provided for @securitySecureFlag.
+  ///
+  /// In fr, this message translates to:
+  /// **'Masquer l\'aperçu dans les applications récentes'**
+  String get securitySecureFlag;
+
+  /// No description provided for @aboutVersion.
+  ///
+  /// In fr, this message translates to:
+  /// **'Version'**
+  String get aboutVersion;
+
+  /// No description provided for @aboutPrivacy.
+  ///
+  /// In fr, this message translates to:
+  /// **'Confidentialité'**
+  String get aboutPrivacy;
+
+  /// No description provided for @aboutPrivacyBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Floos fonctionne entièrement hors ligne. Aucune donnée ne quitte votre appareil, sauf sauvegardes que vous partagez vous-même.'**
+  String get aboutPrivacyBody;
+
+  /// No description provided for @aboutLicenses.
+  ///
+  /// In fr, this message translates to:
+  /// **'Licences open source'**
+  String get aboutLicenses;
+
+  /// No description provided for @aboutDiagnostics.
+  ///
+  /// In fr, this message translates to:
+  /// **'Diagnostics'**
+  String get aboutDiagnostics;
+
+  /// No description provided for @diagEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune erreur enregistrée'**
+  String get diagEmpty;
+
+  /// No description provided for @diagExport.
+  ///
+  /// In fr, this message translates to:
+  /// **'Exporter le journal'**
+  String get diagExport;
+
+  /// No description provided for @diagClear.
+  ///
+  /// In fr, this message translates to:
+  /// **'Effacer le journal'**
+  String get diagClear;
+
+  /// No description provided for @baseCurrencyBlocked.
+  ///
+  /// In fr, this message translates to:
+  /// **'Taux manquants pour {codes}. Ajoutez-les avant de changer de devise.'**
+  String baseCurrencyBlocked(String codes);
+
+  /// No description provided for @errorLoading.
+  ///
+  /// In fr, this message translates to:
+  /// **'Une erreur est survenue'**
+  String get errorLoading;
+
+  /// No description provided for @splashLoading.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chargement…'**
+  String get splashLoading;
+
+  /// No description provided for @accountNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouveau compte'**
+  String get accountNew;
+
+  /// No description provided for @accountEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier le compte'**
+  String get accountEdit;
+
+  /// No description provided for @accountTypeCash.
+  ///
+  /// In fr, this message translates to:
+  /// **'Espèces'**
+  String get accountTypeCash;
+
+  /// No description provided for @accountTypeBank.
+  ///
+  /// In fr, this message translates to:
+  /// **'Banque'**
+  String get accountTypeBank;
+
+  /// No description provided for @accountTypeCard.
+  ///
+  /// In fr, this message translates to:
+  /// **'Carte'**
+  String get accountTypeCard;
+
+  /// No description provided for @accountTypeSavings.
+  ///
+  /// In fr, this message translates to:
+  /// **'Épargne'**
+  String get accountTypeSavings;
+
+  /// No description provided for @accountTypeEwallet.
+  ///
+  /// In fr, this message translates to:
+  /// **'Portefeuille électronique'**
+  String get accountTypeEwallet;
+
+  /// No description provided for @accountTypeOther.
+  ///
+  /// In fr, this message translates to:
+  /// **'Autre'**
+  String get accountTypeOther;
+
+  /// No description provided for @accountInitialBalance.
+  ///
+  /// In fr, this message translates to:
+  /// **'Solde initial'**
+  String get accountInitialBalance;
+
+  /// No description provided for @accountIncludeTotal.
+  ///
+  /// In fr, this message translates to:
+  /// **'Inclure dans le total'**
+  String get accountIncludeTotal;
+
+  /// No description provided for @accountArchivedSection.
+  ///
+  /// In fr, this message translates to:
+  /// **'Archivés'**
+  String get accountArchivedSection;
+
+  /// No description provided for @accountReconcile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rapprocher le solde'**
+  String get accountReconcile;
+
+  /// No description provided for @accountReconcileBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Saisissez le solde réel. Un ajustement sera créé pour la différence.'**
+  String get accountReconcileBody;
+
+  /// No description provided for @accountRealBalance.
+  ///
+  /// In fr, this message translates to:
+  /// **'Solde réel'**
+  String get accountRealBalance;
+
+  /// No description provided for @accountReconciled.
+  ///
+  /// In fr, this message translates to:
+  /// **'Solde rapproché'**
+  String get accountReconciled;
+
+  /// No description provided for @accountBalanceHistory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Solde sur 6 mois'**
+  String get accountBalanceHistory;
+
+  /// No description provided for @accountDeleteTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer le compte'**
+  String get accountDeleteTitle;
+
+  /// No description provided for @accountDeleteBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce compte contient {n} opérations. Que faire ?'**
+  String accountDeleteBody(int n);
+
+  /// No description provided for @accountMoveTo.
+  ///
+  /// In fr, this message translates to:
+  /// **'Déplacer les opérations vers…'**
+  String get accountMoveTo;
+
+  /// No description provided for @accountDeleteAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer aussi les opérations'**
+  String get accountDeleteAll;
+
+  /// No description provided for @accountTotalBalance.
+  ///
+  /// In fr, this message translates to:
+  /// **'Solde total'**
+  String get accountTotalBalance;
+
+  /// No description provided for @accountsEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun compte'**
+  String get accountsEmpty;
+
+  /// No description provided for @accountTransactions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Opérations'**
+  String get accountTransactions;
+
+  /// No description provided for @reorderHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Maintenez et faites glisser pour réordonner'**
+  String get reorderHint;
+
+  /// No description provided for @categoryNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle catégorie'**
+  String get categoryNew;
+
+  /// No description provided for @categoryEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier la catégorie'**
+  String get categoryEdit;
+
+  /// No description provided for @categoryParent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie parente'**
+  String get categoryParent;
+
+  /// No description provided for @categoryMerge.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fusionner'**
+  String get categoryMerge;
+
+  /// No description provided for @categoryMergeInto.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fusionner dans…'**
+  String get categoryMergeInto;
+
+  /// No description provided for @categoryDeleteTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer la catégorie'**
+  String get categoryDeleteTitle;
+
+  /// No description provided for @categoryDeleteReassign.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} opérations utilisent cette catégorie. Choisissez une catégorie de remplacement.'**
+  String categoryDeleteReassign(int n);
+
+  /// No description provided for @categoryPickReplacement.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir un remplacement'**
+  String get categoryPickReplacement;
+
+  /// No description provided for @categoryArchivedBudgets.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} budget(s) archivé(s)'**
+  String categoryArchivedBudgets(int n);
+
+  /// No description provided for @categoryEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune catégorie'**
+  String get categoryEmpty;
+
+  /// No description provided for @tagsEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune étiquette'**
+  String get tagsEmpty;
+
+  /// No description provided for @tagNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle étiquette'**
+  String get tagNew;
+
+  /// No description provided for @tagUsage.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} utilisations'**
+  String tagUsage(int n);
+
+  /// No description provided for @ratesTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Taux de change'**
+  String get ratesTitle;
+
+  /// No description provided for @ratesEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun taux. Ajoutez-en un pour convertir les devises.'**
+  String get ratesEmpty;
+
+  /// No description provided for @rateAdd.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter un taux'**
+  String get rateAdd;
+
+  /// No description provided for @rateValue.
+  ///
+  /// In fr, this message translates to:
+  /// **'Taux'**
+  String get rateValue;
+
+  /// No description provided for @rateFrom.
+  ///
+  /// In fr, this message translates to:
+  /// **'De'**
+  String get rateFrom;
+
+  /// No description provided for @rateTo.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vers'**
+  String get rateTo;
+
+  /// No description provided for @rateHistory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Historique'**
+  String get rateHistory;
+
+  /// No description provided for @rateLine.
+  ///
+  /// In fr, this message translates to:
+  /// **'1 {from} = {rate} {to}'**
+  String rateLine(String from, String rate, String to);
+
+  /// No description provided for @kindExpense.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dépenses'**
+  String get kindExpense;
+
+  /// No description provided for @kindIncome.
+  ///
+  /// In fr, this message translates to:
+  /// **'Revenus'**
+  String get kindIncome;
+
+  /// No description provided for @reportTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rapport'**
+  String get reportTitle;
+
+  /// No description provided for @reportExpensesTotal.
+  ///
+  /// In fr, this message translates to:
+  /// **'Total des dépenses'**
+  String get reportExpensesTotal;
+
+  /// No description provided for @reportIncomeTotal.
+  ///
+  /// In fr, this message translates to:
+  /// **'Total des revenus'**
+  String get reportIncomeTotal;
+
+  /// No description provided for @reportNoData.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune donnée pour cette période'**
+  String get reportNoData;
+
+  /// No description provided for @reportUncategorized.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sans catégorie'**
+  String get reportUncategorized;
+
+  /// No description provided for @reportCashFlow.
+  ///
+  /// In fr, this message translates to:
+  /// **'Flux de trésorerie'**
+  String get reportCashFlow;
+
+  /// No description provided for @reportCashFlowNet.
+  ///
+  /// In fr, this message translates to:
+  /// **'Net'**
+  String get reportCashFlowNet;
+
+  /// No description provided for @reportStats.
+  ///
+  /// In fr, this message translates to:
+  /// **'Statistiques'**
+  String get reportStats;
+
+  /// No description provided for @reportSavingsRate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Taux d\'épargne'**
+  String get reportSavingsRate;
+
+  /// No description provided for @reportAvgPerDay.
+  ///
+  /// In fr, this message translates to:
+  /// **'Moyenne par jour'**
+  String get reportAvgPerDay;
+
+  /// No description provided for @reportTxCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Opérations'**
+  String get reportTxCount;
+
+  /// No description provided for @reportBiggest.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus grosse dépense'**
+  String get reportBiggest;
+
+  /// No description provided for @reportMostFrequent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie la plus fréquente'**
+  String get reportMostFrequent;
+
+  /// No description provided for @reportTopPayee.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bénéficiaire principal'**
+  String get reportTopPayee;
+
+  /// No description provided for @reportByTag.
+  ///
+  /// In fr, this message translates to:
+  /// **'Par étiquette'**
+  String get reportByTag;
+
+  /// No description provided for @reportByAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Par compte'**
+  String get reportByAccount;
+
+  /// No description provided for @reportExportCsv.
+  ///
+  /// In fr, this message translates to:
+  /// **'Exporter en CSV'**
+  String get reportExportCsv;
+
+  /// No description provided for @reportExportPdf.
+  ///
+  /// In fr, this message translates to:
+  /// **'Exporter en PDF'**
+  String get reportExportPdf;
+
+  /// No description provided for @reportShowDonut.
+  ///
+  /// In fr, this message translates to:
+  /// **'Anneau'**
+  String get reportShowDonut;
+
+  /// No description provided for @reportShowBars.
+  ///
+  /// In fr, this message translates to:
+  /// **'Barres'**
+  String get reportShowBars;
+
+  /// No description provided for @categoryDetailSubcategories.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sous-catégories'**
+  String get categoryDetailSubcategories;
+
+  /// No description provided for @categoryDetailTrend.
+  ///
+  /// In fr, this message translates to:
+  /// **'Évolution sur 6 périodes'**
+  String get categoryDetailTrend;
+
+  /// No description provided for @categoryDetailTx.
+  ///
+  /// In fr, this message translates to:
+  /// **'Opérations de la période'**
+  String get categoryDetailTx;
+
+  /// No description provided for @insightsAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes les alertes'**
+  String get insightsAll;
+
+  /// No description provided for @planTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mon plan'**
+  String get planTitle;
+
+  /// No description provided for @planAddTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter'**
+  String get planAddTitle;
+
+  /// No description provided for @planNewBudget.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouveau budget'**
+  String get planNewBudget;
+
+  /// No description provided for @planNewGoal.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvel objectif'**
+  String get planNewGoal;
+
+  /// No description provided for @planNewRecurring.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle opération récurrente'**
+  String get planNewRecurring;
+
+  /// No description provided for @planNewDebt.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle dette ou prêt'**
+  String get planNewDebt;
+
+  /// No description provided for @planGoals.
+  ///
+  /// In fr, this message translates to:
+  /// **'Objectifs'**
+  String get planGoals;
+
+  /// No description provided for @planBudgets.
+  ///
+  /// In fr, this message translates to:
+  /// **'Budgets'**
+  String get planBudgets;
+
+  /// No description provided for @planRecurring.
+  ///
+  /// In fr, this message translates to:
+  /// **'Récurrentes et factures'**
+  String get planRecurring;
+
+  /// No description provided for @planDebts.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dettes et prêts'**
+  String get planDebts;
+
+  /// No description provided for @budgetsEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun budget. Fixez une limite pour mieux maîtriser vos dépenses.'**
+  String get budgetsEmpty;
+
+  /// No description provided for @budgetEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier le budget'**
+  String get budgetEdit;
+
+  /// No description provided for @budgetName.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nom (facultatif)'**
+  String get budgetName;
+
+  /// No description provided for @budgetAllCategories.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes les dépenses'**
+  String get budgetAllCategories;
+
+  /// No description provided for @budgetCategory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie'**
+  String get budgetCategory;
+
+  /// No description provided for @budgetIncludeSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Inclure les sous-catégories'**
+  String get budgetIncludeSub;
+
+  /// No description provided for @budgetPeriodLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Période'**
+  String get budgetPeriodLabel;
+
+  /// No description provided for @budgetRollover.
+  ///
+  /// In fr, this message translates to:
+  /// **'Reporter le reste'**
+  String get budgetRollover;
+
+  /// No description provided for @budgetThresholds.
+  ///
+  /// In fr, this message translates to:
+  /// **'Alertes à 80 % et 100 %'**
+  String get budgetThresholds;
+
+  /// No description provided for @budgetSpent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dépensé'**
+  String get budgetSpent;
+
+  /// No description provided for @budgetLeft.
+  ///
+  /// In fr, this message translates to:
+  /// **'Reste'**
+  String get budgetLeft;
+
+  /// No description provided for @budgetOverBy.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dépassement'**
+  String get budgetOverBy;
+
+  /// No description provided for @budgetPerDay.
+  ///
+  /// In fr, this message translates to:
+  /// **'{amount} / jour'**
+  String budgetPerDay(String amount);
+
+  /// No description provided for @budgetProjected.
+  ///
+  /// In fr, this message translates to:
+  /// **'Projection : {amount}'**
+  String budgetProjected(String amount);
+
+  /// No description provided for @budgetDaysLeft.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} jours restants'**
+  String budgetDaysLeft(int n);
+
+  /// No description provided for @budgetHistory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Historique'**
+  String get budgetHistory;
+
+  /// No description provided for @budgetRolloverIn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Report : {amount}'**
+  String budgetRolloverIn(String amount);
+
+  /// No description provided for @budgetTransactions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Opérations du budget'**
+  String get budgetTransactions;
+
+  /// No description provided for @budgetDeleteConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer ce budget ?'**
+  String get budgetDeleteConfirm;
+
+  /// No description provided for @goalsEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun objectif. Créez-en un pour épargner avec un but.'**
+  String get goalsEmpty;
+
+  /// No description provided for @goalNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvel objectif'**
+  String get goalNew;
+
+  /// No description provided for @goalEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier l\'objectif'**
+  String get goalEdit;
+
+  /// No description provided for @goalTarget.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant cible'**
+  String get goalTarget;
+
+  /// No description provided for @goalDeadline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Échéance'**
+  String get goalDeadline;
+
+  /// No description provided for @goalStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Début'**
+  String get goalStart;
+
+  /// No description provided for @goalTracking.
+  ///
+  /// In fr, this message translates to:
+  /// **'Suivi'**
+  String get goalTracking;
+
+  /// No description provided for @goalTrackManual.
+  ///
+  /// In fr, this message translates to:
+  /// **'Manuel'**
+  String get goalTrackManual;
+
+  /// No description provided for @goalTrackLinked.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lié à un compte'**
+  String get goalTrackLinked;
+
+  /// No description provided for @goalLinkedAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compte lié'**
+  String get goalLinkedAccount;
+
+  /// No description provided for @goalSaved.
+  ///
+  /// In fr, this message translates to:
+  /// **'Épargné'**
+  String get goalSaved;
+
+  /// No description provided for @goalRemaining.
+  ///
+  /// In fr, this message translates to:
+  /// **'Reste'**
+  String get goalRemaining;
+
+  /// No description provided for @goalContribute.
+  ///
+  /// In fr, this message translates to:
+  /// **'Verser'**
+  String get goalContribute;
+
+  /// No description provided for @goalWithdraw.
+  ///
+  /// In fr, this message translates to:
+  /// **'Retirer'**
+  String get goalWithdraw;
+
+  /// No description provided for @goalAmountField.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant'**
+  String get goalAmountField;
+
+  /// No description provided for @goalFromAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Depuis le compte'**
+  String get goalFromAccount;
+
+  /// No description provided for @goalOnTrack.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dans les temps'**
+  String get goalOnTrack;
+
+  /// No description provided for @goalBehind.
+  ///
+  /// In fr, this message translates to:
+  /// **'En retard de {n} %'**
+  String goalBehind(int n);
+
+  /// No description provided for @goalCompletedLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Atteint'**
+  String get goalCompletedLabel;
+
+  /// No description provided for @goalNoDeadline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sans échéance'**
+  String get goalNoDeadline;
+
+  /// No description provided for @goalNeeded.
+  ///
+  /// In fr, this message translates to:
+  /// **'{amount} par mois nécessaires'**
+  String goalNeeded(String amount);
+
+  /// No description provided for @goalEstimated.
+  ///
+  /// In fr, this message translates to:
+  /// **'Estimation : {date}'**
+  String goalEstimated(String date);
+
+  /// No description provided for @goalCelebrate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Objectif atteint ! Bravo 🎉'**
+  String get goalCelebrate;
+
+  /// No description provided for @goalMarkComplete.
+  ///
+  /// In fr, this message translates to:
+  /// **'Marquer comme atteint'**
+  String get goalMarkComplete;
+
+  /// No description provided for @goalReactivate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Réactiver'**
+  String get goalReactivate;
+
+  /// No description provided for @goalContributions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Versements'**
+  String get goalContributions;
+
+  /// No description provided for @goalDeleteConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer cet objectif et ses versements ?'**
+  String get goalDeleteConfirm;
+
+  /// No description provided for @recurringEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune opération récurrente. Ajoutez vos factures et abonnements.'**
+  String get recurringEmpty;
+
+  /// No description provided for @recurringNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle récurrence'**
+  String get recurringNew;
+
+  /// No description provided for @recurringEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier la récurrence'**
+  String get recurringEdit;
+
+  /// No description provided for @recurringNext.
+  ///
+  /// In fr, this message translates to:
+  /// **'Prochaine : {date}'**
+  String recurringNext(String date);
+
+  /// No description provided for @recurringPaused.
+  ///
+  /// In fr, this message translates to:
+  /// **'En pause'**
+  String get recurringPaused;
+
+  /// No description provided for @recurringSkipNext.
+  ///
+  /// In fr, this message translates to:
+  /// **'Passer la prochaine'**
+  String get recurringSkipNext;
+
+  /// No description provided for @recurringDeleteTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer la récurrence'**
+  String get recurringDeleteTitle;
+
+  /// No description provided for @recurringKeepPast.
+  ///
+  /// In fr, this message translates to:
+  /// **'Garder les opérations passées'**
+  String get recurringKeepPast;
+
+  /// No description provided for @recurringDeletePast.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer aussi les opérations passées'**
+  String get recurringDeletePast;
+
+  /// No description provided for @recurringActive.
+  ///
+  /// In fr, this message translates to:
+  /// **'Active'**
+  String get recurringActive;
+
+  /// No description provided for @debtsEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune dette ni prêt.'**
+  String get debtsEmpty;
+
+  /// No description provided for @debtNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle dette'**
+  String get debtNew;
+
+  /// No description provided for @debtEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier la dette'**
+  String get debtEdit;
+
+  /// No description provided for @debtIOwe.
+  ///
+  /// In fr, this message translates to:
+  /// **'Je dois'**
+  String get debtIOwe;
+
+  /// No description provided for @debtOwedToMe.
+  ///
+  /// In fr, this message translates to:
+  /// **'On me doit'**
+  String get debtOwedToMe;
+
+  /// No description provided for @debtPerson.
+  ///
+  /// In fr, this message translates to:
+  /// **'Personne'**
+  String get debtPerson;
+
+  /// No description provided for @debtAmountField.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant'**
+  String get debtAmountField;
+
+  /// No description provided for @debtDue.
+  ///
+  /// In fr, this message translates to:
+  /// **'Échéance'**
+  String get debtDue;
+
+  /// No description provided for @debtPaid.
+  ///
+  /// In fr, this message translates to:
+  /// **'Payé'**
+  String get debtPaid;
+
+  /// No description provided for @debtRemaining.
+  ///
+  /// In fr, this message translates to:
+  /// **'Reste'**
+  String get debtRemaining;
+
+  /// No description provided for @debtAddPayment.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter un paiement'**
+  String get debtAddPayment;
+
+  /// No description provided for @debtSettle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Marquer comme soldé'**
+  String get debtSettle;
+
+  /// No description provided for @debtReopen.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rouvrir'**
+  String get debtReopen;
+
+  /// No description provided for @debtOverdue.
+  ///
+  /// In fr, this message translates to:
+  /// **'En retard'**
+  String get debtOverdue;
+
+  /// No description provided for @debtSettled.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soldé'**
+  String get debtSettled;
+
+  /// No description provided for @debtRecordOnly.
+  ///
+  /// In fr, this message translates to:
+  /// **'Enregistrer sans toucher aux comptes'**
+  String get debtRecordOnly;
+
+  /// No description provided for @debtPayments.
+  ///
+  /// In fr, this message translates to:
+  /// **'Paiements'**
+  String get debtPayments;
+
+  /// No description provided for @debtStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Date'**
+  String get debtStart;
+
+  /// No description provided for @debtDeleteConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer cette dette ?'**
+  String get debtDeleteConfirm;
+
+  /// No description provided for @debtOpenTab.
+  ///
+  /// In fr, this message translates to:
+  /// **'En cours'**
+  String get debtOpenTab;
+
+  /// No description provided for @debtSettledTab.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soldées'**
+  String get debtSettledTab;
+
+  /// No description provided for @notifCenterTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Notifications'**
+  String get notifCenterTitle;
+
+  /// No description provided for @notifCenterEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune notification'**
+  String get notifCenterEmpty;
+
+  /// No description provided for @notifMarkAllRead.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tout marquer comme lu'**
+  String get notifMarkAllRead;
+
+  /// No description provided for @notifClear.
+  ///
+  /// In fr, this message translates to:
+  /// **'Effacer l\'historique'**
+  String get notifClear;
+
+  /// No description provided for @notifSettingsMaster.
+  ///
+  /// In fr, this message translates to:
+  /// **'Activer les notifications'**
+  String get notifSettingsMaster;
+
+  /// No description provided for @notifSettingsBudget.
+  ///
+  /// In fr, this message translates to:
+  /// **'Alertes de budget'**
+  String get notifSettingsBudget;
+
+  /// No description provided for @notifSettingsBills.
+  ///
+  /// In fr, this message translates to:
+  /// **'Factures et récurrentes'**
+  String get notifSettingsBills;
+
+  /// No description provided for @notifSettingsGoals.
+  ///
+  /// In fr, this message translates to:
+  /// **'Objectifs'**
+  String get notifSettingsGoals;
+
+  /// No description provided for @notifSettingsDebts.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dettes et prêts'**
+  String get notifSettingsDebts;
+
+  /// No description provided for @notifSettingsDaily.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rappel quotidien'**
+  String get notifSettingsDaily;
+
+  /// No description provided for @notifSettingsDailyTime.
+  ///
+  /// In fr, this message translates to:
+  /// **'Heure du rappel'**
+  String get notifSettingsDailyTime;
+
+  /// No description provided for @notifSettingsBackup.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rappels de sauvegarde'**
+  String get notifSettingsBackup;
+
+  /// No description provided for @notifPermissionDenied.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les notifications sont désactivées pour Floos dans les réglages du système.'**
+  String get notifPermissionDenied;
+
+  /// No description provided for @notifRequestPermission.
+  ///
+  /// In fr, this message translates to:
+  /// **'Autoriser les notifications'**
+  String get notifRequestPermission;
+
+  /// No description provided for @notifSendTest.
+  ///
+  /// In fr, this message translates to:
+  /// **'Envoyer une notification test'**
+  String get notifSendTest;
+
+  /// No description provided for @backupNow.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarder maintenant'**
+  String get backupNow;
+
+  /// No description provided for @backupPassword.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe (facultatif)'**
+  String get backupPassword;
+
+  /// No description provided for @backupPasswordHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Laissez vide pour une sauvegarde non chiffrée'**
+  String get backupPasswordHint;
+
+  /// No description provided for @backupCreated.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarde créée'**
+  String get backupCreated;
+
+  /// No description provided for @backupShare.
+  ///
+  /// In fr, this message translates to:
+  /// **'Partager la sauvegarde'**
+  String get backupShare;
+
+  /// No description provided for @backupAuto.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarde automatique'**
+  String get backupAuto;
+
+  /// No description provided for @backupAutoOff.
+  ///
+  /// In fr, this message translates to:
+  /// **'Désactivée'**
+  String get backupAutoOff;
+
+  /// No description provided for @backupAutoDaily.
+  ///
+  /// In fr, this message translates to:
+  /// **'Quotidienne'**
+  String get backupAutoDaily;
+
+  /// No description provided for @backupAutoWeekly.
+  ///
+  /// In fr, this message translates to:
+  /// **'Hebdomadaire'**
+  String get backupAutoWeekly;
+
+  /// No description provided for @backupAutoMonthly.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mensuelle'**
+  String get backupAutoMonthly;
+
+  /// No description provided for @backupKeep.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegardes conservées'**
+  String get backupKeep;
+
+  /// No description provided for @backupLast.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dernière sauvegarde : {date}'**
+  String backupLast(String date);
+
+  /// No description provided for @backupNever.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune sauvegarde pour l\'instant'**
+  String get backupNever;
+
+  /// No description provided for @backupRestore.
+  ///
+  /// In fr, this message translates to:
+  /// **'Restaurer une sauvegarde'**
+  String get backupRestore;
+
+  /// No description provided for @backupRestorePreview.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarde du {date} · {n} opérations'**
+  String backupRestorePreview(String date, int n);
+
+  /// No description provided for @backupRestoreWarning.
+  ///
+  /// In fr, this message translates to:
+  /// **'La restauration remplace toutes les données actuelles. Une sauvegarde de sécurité sera créée avant.'**
+  String get backupRestoreWarning;
+
+  /// No description provided for @backupRestoreDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Restauration terminée'**
+  String get backupRestoreDone;
+
+  /// No description provided for @backupEncrypted.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette sauvegarde est chiffrée. Saisissez le mot de passe.'**
+  String get backupEncrypted;
+
+  /// No description provided for @dataExportCsv.
+  ///
+  /// In fr, this message translates to:
+  /// **'Exporter les opérations (CSV)'**
+  String get dataExportCsv;
+
+  /// No description provided for @dataImportCsv.
+  ///
+  /// In fr, this message translates to:
+  /// **'Importer un fichier CSV'**
+  String get dataImportCsv;
+
+  /// No description provided for @dataDeleteAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer toutes les données'**
+  String get dataDeleteAll;
+
+  /// No description provided for @dataDeleteAllBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes vos données seront définitivement supprimées. Tapez SUPPRIMER pour confirmer.'**
+  String get dataDeleteAllBody;
+
+  /// No description provided for @dataDeleteWord.
+  ///
+  /// In fr, this message translates to:
+  /// **'SUPPRIMER'**
+  String get dataDeleteWord;
+
+  /// No description provided for @dataDeleted.
+  ///
+  /// In fr, this message translates to:
+  /// **'Données supprimées'**
+  String get dataDeleted;
+
+  /// No description provided for @csvStepFile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fichier'**
+  String get csvStepFile;
+
+  /// No description provided for @csvStepMapping.
+  ///
+  /// In fr, this message translates to:
+  /// **'Colonnes'**
+  String get csvStepMapping;
+
+  /// No description provided for @csvStepReview.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vérification'**
+  String get csvStepReview;
+
+  /// No description provided for @csvStepImport.
+  ///
+  /// In fr, this message translates to:
+  /// **'Import'**
+  String get csvStepImport;
+
+  /// No description provided for @csvPickFile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir un fichier CSV'**
+  String get csvPickFile;
+
+  /// No description provided for @csvDateFormat.
+  ///
+  /// In fr, this message translates to:
+  /// **'Format de date'**
+  String get csvDateFormat;
+
+  /// No description provided for @csvDecimalComma.
+  ///
+  /// In fr, this message translates to:
+  /// **'Virgule décimale'**
+  String get csvDecimalComma;
+
+  /// No description provided for @csvNotMapped.
+  ///
+  /// In fr, this message translates to:
+  /// **'— Non importé —'**
+  String get csvNotMapped;
+
+  /// No description provided for @csvRows.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} lignes valides, {e} erreurs, {d} doublons'**
+  String csvRows(int n, int e, int d);
+
+  /// No description provided for @csvImportDuplicates.
+  ///
+  /// In fr, this message translates to:
+  /// **'Importer aussi les doublons'**
+  String get csvImportDuplicates;
+
+  /// No description provided for @csvUnknownAccounts.
+  ///
+  /// In fr, this message translates to:
+  /// **'Comptes inconnus (créés automatiquement)'**
+  String get csvUnknownAccounts;
+
+  /// No description provided for @csvUnknownCategories.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégories inconnues (créées automatiquement)'**
+  String get csvUnknownCategories;
+
+  /// No description provided for @csvDoImport.
+  ///
+  /// In fr, this message translates to:
+  /// **'Importer'**
+  String get csvDoImport;
+
+  /// No description provided for @csvReport.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} importées, {s} ignorées, {e} erreurs'**
+  String csvReport(int n, int s, int e);
+
+  /// No description provided for @csvFallbackAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compte par défaut'**
+  String get csvFallbackAccount;
+
+  /// No description provided for @csvFieldDate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Date'**
+  String get csvFieldDate;
+
+  /// No description provided for @csvFieldTime.
+  ///
+  /// In fr, this message translates to:
+  /// **'Heure'**
+  String get csvFieldTime;
+
+  /// No description provided for @csvFieldType.
+  ///
+  /// In fr, this message translates to:
+  /// **'Type'**
+  String get csvFieldType;
+
+  /// No description provided for @csvFieldAmount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant'**
+  String get csvFieldAmount;
+
+  /// No description provided for @csvFieldCurrency.
+  ///
+  /// In fr, this message translates to:
+  /// **'Devise'**
+  String get csvFieldCurrency;
+
+  /// No description provided for @csvFieldAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compte'**
+  String get csvFieldAccount;
+
+  /// No description provided for @csvFieldToAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vers le compte'**
+  String get csvFieldToAccount;
+
+  /// No description provided for @csvFieldToAmount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Montant reçu'**
+  String get csvFieldToAmount;
+
+  /// No description provided for @csvFieldCategory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie'**
+  String get csvFieldCategory;
+
+  /// No description provided for @csvFieldParentCategory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie parente'**
+  String get csvFieldParentCategory;
+
+  /// No description provided for @csvFieldPayee.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bénéficiaire'**
+  String get csvFieldPayee;
+
+  /// No description provided for @csvFieldNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Note'**
+  String get csvFieldNote;
+
+  /// No description provided for @csvFieldTags.
+  ///
+  /// In fr, this message translates to:
+  /// **'Étiquettes'**
+  String get csvFieldTags;
+
+  /// No description provided for @csvFieldId.
+  ///
+  /// In fr, this message translates to:
+  /// **'Identifiant'**
+  String get csvFieldId;
 }
 
 class _AppLocalizationsDelegate

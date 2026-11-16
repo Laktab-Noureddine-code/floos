@@ -40,7 +40,8 @@ dependencies:
   sqlite3: ^3.9.1
   freezed_annotation: ^3.1.0
   json_annotation: ^4.12.0
-  phosphor_flutter: ^2.1.0
+  phosphor_flutter:
+    path: packages/phosphor_flutter
   fl_chart: ^1.3.1
   intl: ^0.20.3
   flutter_local_notifications: ^23.0.2

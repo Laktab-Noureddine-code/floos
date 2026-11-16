@@ -219,7 +219,6 @@ class _Content extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
     final summary = ref.watch(homeSummaryProvider);
-    final base = ref.watch(baseCurrencyProvider);
     final insights = ref.watch(insightsProvider).value ?? const [];
     final pending = ref.watch(pendingProvider).value ?? const [];
     final budgets = ref.watch(budgetSnapshotProvider).value ?? const [];
@@ -394,7 +393,6 @@ class _Content extends ConsumerWidget {
             );
           },
         ),
-        if (base.code.isEmpty) const SizedBox.shrink(),
       ],
     );
   }
